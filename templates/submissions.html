@@ -5,50 +5,33 @@
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, inital-scaler=1.0">
 <link rel = "stylesheet" href="../static/style.css">
 
 <style>
-
-    .box-container {
-        /* display: flex; 
-        flex-wrap: wrap; */
-        gap: 5px;
-        display:grid;  
-        grid-template-columns:  1fr 3fr;
-
-
-        margin-left: 210px;
-        margin-right: 230px; 
+    form {
+        text-align: center;
     }
 
-    .box-item {
-        display:flex; 
-        background-color: tan;
-        /* width: 45%;  */
-        height: 100px;
-        justify-content: center;
-        text-align: center; 
+    label[for="birthday"] {
+        margin-right: 0px;
+    }
+    input#birthday{
+        margin-right: 30px;
+    }
+    label[for="amount"] {
+        margin-left: 20px;
+    }
+    label[for="team"] {
+        margin-left: 40px;
+    }
+    input#wdl{
+        margin-right: 30px;
+    }
+    #comment {
+        width: 200px;
     }
 
-
-    .box-item:first-child {
-        grid-column:span 2; 
-        align-items: center;
-    }
-    .box-item:nth-child(2) {
-        height: 400px;
-    }
-    .box-item:nth-child(3) {
-        height: 400px;
-    }
-    .box-item:last-child {
-        grid-column:span 2;
-        align-items: center;
-    }
-
-
- </style>
+</style>
 <!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
 </head>
 
@@ -56,7 +39,7 @@
 
 <header>
 
-<h1>Project 4 Website!</h1>
+<h1>Project 4 Website Submissions and Forms Page!</h1>
 
 <nav>
     <ul>
@@ -66,8 +49,6 @@
         <li><a href = "{{ url_for('three') }}"> Three</a></li>
         <li><a href = "{{ url_for('four') }}"> Four</a></li>
         <li><a href = "{{ url_for('five') }}"> Five</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
     </ul>
 </nav>
 
@@ -90,12 +71,11 @@
         <li><a href = "{{ url_for('four') }}"> Four</a></li>
         <li><a href = "{{ url_for('five') }}"> Five</a></li>
         <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
     </ul>
 </div>
 </header>
 
-<!-- <div class = "container-fluid">
+<div class = "container-fluid">
     <div class = "row g-3">
 
         <section class = "col-12 col-md-2 full-height bg-white text-black d-flex align-items-center justify-content-center">
@@ -106,7 +86,42 @@
 
         <section class = "col-12 col-md-4 full-height bg-beige text-black d-flex align-items-center justify-content-center">
             <p>
-                The purpose of this project is to ...................................
+                <!-- {% if success_message %}
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading">Submission Successful!</h4>
+                    <p>Thank you, <strong>{{ first_name }} {{ last_name }}</strong>, for submitting your information.</p>
+                    <p>Your birthday is: <strong>{{ birthday }}</strong></p>
+                    <hr>
+                    <p class="mb-0">{{ success_message }}</p>
+                </div>
+                {% endif %} -->
+                <form action="/sub" method = "POST">
+                    <label for = "first name"> First Name:</label>
+                    <input type = "text" id = "first name" name = "first name" required> <br>
+
+                    <label for = "last name">Last Name:</label>
+                    <input type = "text" id = "last name" name = "last name" requires> <br>
+
+                    <label for = "birthday">Birthday:    </label>
+                    <input type = "date" id = "birthday" name = "birthday" required> <br>
+
+                    <label for = "amount"> Amount:</label>
+                    <input type = "number" id = "amount" name = "amount" required> <br>
+
+                    <label for = "team">Team:</label>
+                    <input type = "text" id = "team" name = "team" required> <br>
+
+                    <label for = "wdl">Win/Draw/Loss: </label>
+                    <input type = "text" id = "wdl" name = "wdl" required> <br> 
+                    <label for = "comment">Comments:    </label>
+                    <textarea id = "comment" name = "comment" rows = 6 placeholder="Write a comment here!"> </textarea><br><br>  
+
+                    
+                    <input type = "submit" value="Submit">
+
+                </form>
+
+
             </p>
         </section>
 
@@ -117,23 +132,12 @@
         </section>
 
     </div>
-</div> -->
-<div class = "box-container">
-    <div class = "box-item">
-        <p>This has some content </p> 
-    </div>
-    <div class = "box-item">
-        <p>This also had some content</p>
-    </div>
-    <div class = "box-item">
-        <p>More content</p>
-    </div>
-    <div class = "box-item">
-        <p>even more content </p>
-    </div>
 </div>
+
+
 <script src = "static/logic.js"></script>
 </body>
+</html>
 
 <!-- <script src = "{{ url_for('static', filename ='logic.js') }}"></script>
 </html> -->
