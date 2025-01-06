@@ -8,6 +8,45 @@
 <link rel = "stylesheet" href="../static/style.css">
 
 <!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+ <style>
+
+    .box-container {
+        /* display: flex; 
+        flex-wrap: wrap; */
+        gap: 5px;
+        display:grid;  
+        grid-template-columns:  1fr 3fr;
+
+
+        margin-left: 220px;
+        margin-right: 240px; 
+    }
+
+    .box-item {
+        display:flex; 
+        background-color: tan;
+        /* width: 45%;  */
+        height: 100px;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .box-item:first-child {
+        grid-column:span 2; 
+    }
+    .box-item:nth-child(2) {
+        height: 400px;
+    }
+    .box-item:nth-child(3) {
+        height: 400px;
+    }
+    .box-item:last-child {
+        grid-column:span 2;
+    }
+
+
+ </style>
 </head>
 
 <body>
@@ -24,6 +63,7 @@
         <li><a href = "{{ url_for('three') }}"> Three</a></li>
         <li><a href = "{{ url_for('four') }}"> Four</a></li>
         <li><a href = "{{ url_for('five') }}"> Five</a></li>
+        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
     </ul>
 </nav>
 
@@ -45,11 +85,12 @@
         <li><a href = "{{ url_for('three') }}"> Three</a></li>
         <li><a href = "{{ url_for('four') }}"> Four</a></li>
         <li><a href = "{{ url_for('five') }}"> Five</a></li>
+        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
     </ul>
 </div>
 </header>
 
-<div class = "container-fluid">
+<!-- <div class = "container-fluid">
     <div class = "row g-3">
 
         <section class = "col-12 col-md-2 full-height bg-white text-black d-flex align-items-center justify-content-center">
@@ -71,8 +112,23 @@
         </section>
 
     </div>
-</div>
+</div> -->
 
+
+<div class = "box-container">
+    <div class = "box-item">
+        <p>This has some content </p> 
+    </div>
+    <div class = "box-item">
+        <p>This also had some content</p>
+    </div>
+    <div class = "box-item">
+        <p>More content</p>
+    </div>
+    <div class = "box-item">
+        <p>even more content </p>
+    </div>
+</div>
 
 <script src = "static/logic.js"></script>
 </body>
