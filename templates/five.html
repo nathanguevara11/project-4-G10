@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<link rel = "stylesheet" href="../static/style.css">
+
+<!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+</head>
+
+<body>
+
+<header>
+
+<h1>Project 4 Website Page 6!</h1>
+
+<nav>
+    <ul>
+        <li><a href = "{{ url_for('home') }}"> Home</a></li>
+        <li><a href = "{{ url_for('one') }}"> One</a></li>
+        <li><a href = "{{ url_for('two') }}"> Two</a></li>
+        <li><a href = "{{ url_for('three') }}"> Three</a></li>
+        <li><a href = "{{ url_for('four') }}"> Four</a></li>
+        <li><a href = "{{ url_for('five') }}"> Five</a></li>
+        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
+    </ul>
+</nav>
+
+<!-- <div class = "container"> -->
+
+<div class = "slide" id = "slide1"></div>
+<div class = "slide" id = "slide2"></div>
+
+<!-- </div> -->
+<div class = "ham">
+    &#9776; 
+</div>
+
+<div id = "side" class = "side">
+    <ul>
+        <li><a href = "{{ url_for('home') }}"> Home</a></li>
+        <li><a href = "{{ url_for('one') }}"> One</a></li>
+        <li><a href = "{{ url_for('two') }}"> Two</a></li>
+        <li><a href = "{{ url_for('three') }}"> Three</a></li>
+        <li><a href = "{{ url_for('four') }}"> Four</a></li>
+        <li><a href = "{{ url_for('five') }}"> Five</a></li>
+        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
+    </ul>
+</div>
+</header>
+
+<div class = "container-fluid">
+    <div class = "row g-3">
+
+        <section class = "col-12 col-md-2 full-height bg-white text-black d-flex align-items-center justify-content-center">
+        <p>
+            The purpose of this project is to ...................................
+        </p>
+        </section>
+
+        <section class = "col-12 col-md-4 full-height bg-beige text-black d-flex align-items-center justify-content-center">
+            <p>
+                The purpose of this project is to ...................................
+            </p>
+        </section>
+
+        <section class = "col-12 col-md-2 full-height bg-white text-black d-flex align-items-center justify-content-center">
+            <p>
+                The purpose of this project is to ...................................
+            </p>
+        </section>
+
+    </div>
+</div>
+
+
+<script src = "static/logic.js"></script>
+</body>
+
+<!-- <script src = "{{ url_for('static', filename ='logic.js') }}"></script>
+</html> -->
+
+
+<!-- 
+<form></form>
+<option></option>
+
+-->

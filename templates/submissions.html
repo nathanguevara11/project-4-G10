@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<link rel = "stylesheet" href="../static/style.css">
+
+<style>
+    form {
+        text-align: center;
+    }
+
+    label[for="birthday"] {
+        margin-right: 0px;
+    }
+    input#birthday{
+        margin-right: 30px;
+    }
+    label[for="amount"] {
+        margin-left: 20px;
+    }
+    label[for="team"] {
+        margin-left: 40px;
+    }
+    input#wdl{
+        margin-right: 30px;
+    }
+    #comment {
+        width: 200px;
+    }
+
+</style>
+<!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+</head>
+
+<body>
+
+<header>
+
+<h1>Project 4 Website Submissions and Forms Page!</h1>
+
+<nav>
+    <ul>
+        <li><a href = "{{ url_for('home') }}"> Home</a></li>
+        <li><a href = "{{ url_for('one') }}"> One</a></li>
+        <li><a href = "{{ url_for('two') }}"> Two</a></li>
+        <li><a href = "{{ url_for('three') }}"> Three</a></li>
+        <li><a href = "{{ url_for('four') }}"> Four</a></li>
+        <li><a href = "{{ url_for('five') }}"> Five</a></li>
+    </ul>
+</nav>
+
+<!-- <div class = "container"> -->
+
+<div class = "slide" id = "slide1"></div>
+<div class = "slide" id = "slide2"></div>
+
+<!-- </div> -->
+<div class = "ham">
+    &#9776; 
+</div>
+
+<div id = "side" class = "side">
+    <ul>
+        <li><a href = "{{ url_for('home') }}"> Home</a></li>
+        <li><a href = "{{ url_for('one') }}"> One</a></li>
+        <li><a href = "{{ url_for('two') }}"> Two</a></li>
+        <li><a href = "{{ url_for('three') }}"> Three</a></li>
+        <li><a href = "{{ url_for('four') }}"> Four</a></li>
+        <li><a href = "{{ url_for('five') }}"> Five</a></li>
+        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
+    </ul>
+</div>
+</header>
+
+<div class = "container-fluid">
+    <div class = "row g-3">
+
+        <section class = "col-12 col-md-2 full-height bg-white text-black d-flex align-items-center justify-content-center">
+        <p>
+            The purpose of this project is to ...................................
+        </p>
+        </section>
+
+        <section class = "col-12 col-md-4 full-height bg-beige text-black d-flex align-items-center justify-content-center">
+            <p>
+                <!-- {% if success_message %}
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading">Submission Successful!</h4>
+                    <p>Thank you, <strong>{{ first_name }} {{ last_name }}</strong>, for submitting your information.</p>
+                    <p>Your birthday is: <strong>{{ birthday }}</strong></p>
+                    <hr>
+                    <p class="mb-0">{{ success_message }}</p>
+                </div>
+                {% endif %} -->
+                <form action="/sub" method = "POST">
+                    <label for = "first name"> First Name:</label>
+                    <input type = "text" id = "first name" name = "first name" required> <br>
+
+                    <label for = "last name">Last Name:</label>
+                    <input type = "text" id = "last name" name = "last name" requires> <br>
+
+                    <label for = "birthday">Birthday:    </label>
+                    <input type = "date" id = "birthday" name = "birthday" required> <br>
+
+                    <label for = "amount"> Amount:</label>
+                    <input type = "number" id = "amount" name = "amount" required> <br>
+
+                    <label for = "team">Team:</label>
+                    <input type = "text" id = "team" name = "team" required> <br>
+
+                    <label for = "wdl">Win/Draw/Loss: </label>
+                    <input type = "text" id = "wdl" name = "wdl" required> <br> 
+                    <label for = "comment">Comments:    </label>
+                    <textarea id = "comment" name = "comment" rows = 6 placeholder="Write a comment here!"> </textarea><br><br>  
+
+                    
+                    <input type = "submit" value="Submit">
+
+                </form>
+
+
+            </p>
+        </section>
+
+        <section class = "col-12 col-md-2 full-height bg-white text-black d-flex align-items-center justify-content-center">
+            <p>
+                The purpose of this project is to ...................................
+            </p>
+        </section>
+
+    </div>
+</div>
+
+
+<script src = "static/logic.js"></script>
+</body>
+</html>
+
+<!-- <script src = "{{ url_for('static', filename ='logic.js') }}"></script>
+</html> -->
+
+
+<!-- 
+<form></form>
+<option></option>
+
+-->
