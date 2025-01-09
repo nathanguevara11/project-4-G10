@@ -1,47 +1,36 @@
 
 body {
-    background-color: #6D8196;
+    background-color: #f4f4f4;
+    color: #333;
 }
+
 * {
     box-sizing: border-box;
 }
 header {
-    /* background-color: beige; */
-    /* background-image: url("screen1.png"); */
     background-position: top;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px; 
-    /* vertical-align: middle; */
     text-align: center;
     position: relative;
     color: #000000;
     z-index: 2;
+    width: 90%; 
+    margin-left:4.4%;
 }
-
-/* header::before { 
-    background-color: rgba(0,0,0,0.35);
-    z-index: 0;
-    content: ''; 
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0; 
-    left:0; 
-} */
 
 header > *{
     position: relative;
     z-index: 2; 
 }
 
-/* section {
-    border: 20px;
-    padding:20px;
-} */
 
 .col-12 {
     margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 .col-12:first-child {
     margin-left: 212px;
@@ -68,12 +57,27 @@ header > *{
 }
 
 h1 {
-    margin-top:120px;
+    margin-top:80px;
+    margin-bottom:20px; 
+    color: white;
+}
+
+nav {
+        display:flex; 
+        background-color: white;
+        height: 100px;
+        justify-content: center;
+        text-align: center;
+        align-items: center; 
+        top:0; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 70px;
 }
 nav ul{
     list-style-type: none;
     text-align: center;
     margin-top: 10px;
+
 
 }
 
@@ -83,32 +87,35 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 20px;
 }
-/* .container {
-    position: relative;
-    top: 0;
-    left: 0; 
-    width: 400px;
-    height: 500px; 
-    z-index: 0; 
-}  */
-
 
 .slide {
     position: absolute;
     width: 66%;
-    height: 180px; 
+    height: 600px; 
     background-size: cover;
     background-position: center center;
-    /* display: none; */
-    left: 16%;
-    top: 0; 
+    left: 16.5%;
+    margin-left: 10px;
+    top: 180px;  
     z-index: 0; 
     opacity:0.3; 
-    transition: opacity 3s ease-in-out;  /* Smooth fade-in/out */
+    transition: opacity 3s ease-in-out;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
+.slide::before { 
+    background-color: rgba(0,0,0,0.35);
+    z-index: 0;
+    content: ''; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left:0; 
+}
 .slide.show {
     opacity: 1;
     z-index:1; /* Make slide visible */
@@ -118,8 +125,8 @@ nav ul li a {
     position: absolute;
     z-index: 100; 
     cursor: pointer;
-    top: 0;
-    right: 30px; 
+    top: 45px;
+    right: 300px; 
 }
 
 .side {
@@ -131,9 +138,8 @@ nav ul li a {
     overflow-x: hidden;
     transition: 0.3s;
     z-index: 99; 
-    background-color: #F5f5dc;
+    background-color: tan;
     margin-top: 5px;
-    /* margin-top: 250px; */
 
 }
 

@@ -1,4 +1,155 @@
+
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parlay Betting Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bet-instance {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .bet-instance input,
+        .bet-instance select {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #add-bet {
+            margin-top: 15px;
+        }
+
+        #parlay-payout {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Parlay Betting Form</h1>
+        <form id="parlay-form">
+            <!-- Placeholder for dynamic bet instances -->
+            <div id="bet-instances">
+                <div class="bet-instance" id="bet-1">
+                    <label for="team1">Team 1:</label>
+                    <input type="text" id="team1" name="team1" required>
+
+                    <label for="team2">Team 2:</label>
+                    <input type="text" id="team2" name="team2" required>
+
+                    <label for="bet-type">Bet Type (Win/Draw/Loss):</label>
+                    <select id="bet-type" name="bet-type" required>
+                        <option value="Win">Win</option>
+                        <option value="Draw">Draw</option>
+                        <option value="Loss">Loss</option>
+                    </select>
+
+                    <label for="amount">Amount to Bet:</label>
+                    <input type="number" id="amount" name="amount" required>
+
+                    <label for="odds">Odds:</label>
+                    <input type="number" id="odds" name="odds" required step="0.1">
+                </div>
+            </div>
+
+            <!-- Add new bet instance button -->
+            <button type="button" id="add-bet" class="btn btn-primary">Add Another Bet</button>
+
+            <!-- Parlay payout display -->
+            <div id="parlay-payout">
+                <h3>Estimated Parlay Payout: $<span id="payout">0.00</span></h3>
+            </div>
+
+            <!-- Submit button -->
+            <input type="submit" value="Place Parlay Bet" class="btn btn-success mt-3">
+        </form>
+    </div>
+
+    <script>
+        // Track the number of bet instances
+        let betCount = 1;
+
+        // Function to calculate the parlay payout
+        function calculateParlayPayout() {
+            let payout = 1;
+            let totalBet = 0;
+
+            // Loop through each bet instance
+            for (let i = 1; i <= betCount; i++) {
+                let amount = parseFloat(document.getElementById(`bet-${i}`).querySelector(`#amount`).value);
+                let odds = parseFloat(document.getElementById(`bet-${i}`).querySelector(`#odds`).value);
+
+                if (amount && odds) {
+                    payout *= (1 + odds); // Multiply the total payout by (1 + odds)
+                    totalBet += amount; // Keep track of the total amount bet
+                }
+            }
+
+            // Apply the multiplier for the parlay bet
+            payout *= totalBet;
+            document.getElementById("payout").textContent = payout.toFixed(2);
+        }
+
+        // Add a new bet instance
+        document.getElementById("add-bet").addEventListener("click", function () {
+            betCount++;
+            let newBet = document.createElement("div");
+            newBet.classList.add("bet-instance");
+            newBet.id = `bet-${betCount}`;
+
+            // HTML structure for the new bet instance
+            newBet.innerHTML = `
+                <label for="team1">Team 1:</label>
+                <input type="text" id="team1" name="team1" required>
+
+                <label for="team2">Team 2:</label>
+                <input type="text" id="team2" name="team2" required>
+
+                <label for="bet-type">Bet Type (Win/Draw/Loss):</label>
+                <select id="bet-type" name="bet-type" required>
+                    <option value="Win">Win</option>
+                    <option value="Draw">Draw</option>
+                    <option value="Loss">Loss</option>
+                </select>
+
+                <label for="amount">Amount to Bet:</label>
+                <input type="number" id="amount" name="amount" required>
+
+                <label for="odds">Odds:</label>
+                <input type="number" id="odds" name="odds" required step="0.1">
+            `;
+
+            // Append the new bet instance to the bet instances container
+            document.getElementById("bet-instances").appendChild(newBet);
+
+            // Recalculate the payout with the new bet
+            calculateParlayPayout();
+        });
+
+        // Listen for changes in the bet input fields
+        document.getElementById("parlay-form").addEventListener("input", function () {
+            calculateParlayPayout();
+        });
+
+        // Prevent form submission for demo
+        document.getElementById("parlay-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            alert("Parlay bet placed!");
+        });
+    </script>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -32,7 +183,7 @@
     }
 
 </style>
-<!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+ <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
 </head>
 
 <body>
@@ -52,13 +203,13 @@
     </ul>
 </nav>
 
-<!-- <div class = "container"> -->
+<div class = "container"> -->
 
-<div class = "slide" id = "slide1"></div>
-<div class = "slide" id = "slide2"></div>
+<!-- <div class = "slide" id = "slide1"></div>
+<div class = "slide" id = "slide2"></div> -->
 
 <!-- </div> -->
-<div class = "ham">
+<!-- <div class = "ham">
     &#9776; 
 </div>
 
@@ -86,7 +237,7 @@
 
         <section class = "col-12 col-md-4 full-height bg-beige text-black d-flex align-items-center justify-content-center">
             <p>
-                <!-- {% if success_message %}
+                 {% if success_message %}
                 <div class="alert alert-success" role="alert">
                     <h4 class="alert-heading">Submission Successful!</h4>
                     <p>Thank you, <strong>{{ first_name }} {{ last_name }}</strong>, for submitting your information.</p>
@@ -94,7 +245,7 @@
                     <hr>
                     <p class="mb-0">{{ success_message }}</p>
                 </div>
-                {% endif %} -->
+                {% endif %} 
                 <form action="/sub" method = "POST">
                     <label for = "first name"> First Name:</label>
                     <input type = "text" id = "first name" name = "first name" required> <br>
@@ -137,7 +288,7 @@
 
 <script src = "static/logic.js"></script>
 </body>
-</html>
+</html> -->
 
 <!-- <script src = "{{ url_for('static', filename ='logic.js') }}"></script>
 </html> -->
@@ -147,4 +298,4 @@
 <form></form>
 <option></option>
 
--->
+  -->

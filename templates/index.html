@@ -11,42 +11,47 @@
 <style>
 
     .box-container {
-        /* display: flex; 
-        flex-wrap: wrap; */
-        gap: 5px;
+        gap: 40px;
         display:grid;  
-        grid-template-columns:  1fr 3fr;
-
-
-        margin-left: 210px;
-        margin-right: 230px; 
+        grid-template-columns:  1fr 2fr;
+        width: min(90%, 1800px); 
+        margin-left: 80px;
+        margin-right: 80px; 
+        margin-bottom: 10px;
+        margin-top: 80px;
     }
 
     .box-item {
         display:flex; 
-        background-color: tan;
-        /* width: 45%;  */
+        background-color: white;
         height: 100px;
         justify-content: center;
         text-align: center; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
-
 
     .box-item:first-child {
         grid-column:span 2; 
         align-items: center;
+        margin-bottom:350px;
+        background-color: #f4f4f4;
+        box-shadow: none;
+         
     }
     .box-item:nth-child(2) {
         height: 400px;
     }
     .box-item:nth-child(3) {
         height: 400px;
+        margin-left: 50px;
+        background-color: #f4f4f4;
+        box-shadow: none;
     }
     .box-item:last-child {
         grid-column:span 2;
         align-items: center;
+        margin-top: 50px;
     }
-
 
  </style>
 <!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
@@ -55,8 +60,6 @@
 <body>
 
 <header>
-
-<h1>Project 4 Website!</h1>
 
 <nav>
     <ul>
@@ -71,12 +74,8 @@
     </ul>
 </nav>
 
-<!-- <div class = "container"> -->
+<h1>Project 4 Website!</h1>
 
-<div class = "slide" id = "slide1"></div>
-<div class = "slide" id = "slide2"></div>
-
-<!-- </div> -->
 <div class = "ham">
     &#9776; 
 </div>
@@ -118,12 +117,16 @@
 
     </div>
 </div> -->
+<div class = "slide" id = "slide1"></div>
+<div class = "slide" id = "slide2"></div>
+
 <div class = "box-container">
     <div class = "box-item">
         <p>This has some content </p> 
     </div>
     <div class = "box-item">
-        <p>This also had some content</p>
+    
+        <p></p>
     </div>
     <div class = "box-item">
         <p>More content</p>
@@ -134,13 +137,4 @@
 </div>
 <script src = "static/logic.js"></script>
 </body>
-
-<!-- <script src = "{{ url_for('static', filename ='logic.js') }}"></script>
-</html> -->
-
-
-<!-- 
-<form></form>
-<option></option>
-
--->
+</html>
