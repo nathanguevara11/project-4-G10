@@ -11,8 +11,6 @@
 <style>
 
     .box-container {
-        /* display: flex; 
-        flex-wrap: wrap; */
         gap: 40px;
         display:grid;  
         grid-template-columns:  1fr 2fr;
@@ -25,24 +23,13 @@
 
     .box-item {
         display:flex; 
-        /* background-color: gray; */
-        /* width: 45%;  */
         background-color: white;
         height: 100px;
         justify-content: center;
         text-align: center; 
-        /* border-color: black; */
-        /* border: 1px solid black;  */
-        /* border-radius: 10px; */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
 
-    /* .box_item::after {
-        content: "";
-        position: absolute;
-        background:
-         
-     } */
     .box-item:first-child {
         grid-column:span 2; 
         align-items: center;
@@ -58,7 +45,7 @@
         height: 400px;
         margin-left: 50px;
         background-color: #f4f4f4;
-        /* box-shadow: none; */
+        box-shadow: none;
     }
     .box-item:last-child {
         grid-column:span 2;
@@ -66,17 +53,6 @@
         margin-top: 50px;
     }
 
-    /* .box-item:first-child::after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%; 
-        background: gold;
-    } */
-
-#sebheader {
-    bottom: 0;
-}
  </style>
 <!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
 </head>
@@ -84,8 +60,6 @@
 <body>
 
 <header>
-
-<!-- <h1>Project 4 Website!</h1> -->
 
 <nav>
     <ul>
@@ -102,12 +76,6 @@
 
 <h1>Project 4 Website!</h1>
 
-<!-- <div class = "container"> -->
-
-<!-- <div class = "slide" id = "slide1"></div>
-<div class = "slide" id = "slide2"></div> -->
-
-<!-- </div> -->
 <div class = "ham">
     &#9776; 
 </div>
@@ -158,8 +126,7 @@
     </div>
     <div class = "box-item">
     
-        <h1 id = "sebheader">Project</h1>
-        <p> Sebastian is gonna write something later. </p>
+        <p></p>
     </div>
     <div class = "box-item">
         <p>More content</p>
@@ -171,12 +138,3 @@
 <script src = "static/logic.js"></script>
 </body>
 </html>
-<!-- <script src = "{{ url_for('static', filename ='logic.js') }}"></script>
-</html> -->
-
-
-<!-- 
-<form></form>
-<option></option>
-
--->
