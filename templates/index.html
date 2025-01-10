@@ -1,140 +1,81 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, inital-scaler=1.0">
-<link rel = "stylesheet" href="../static/style.css">
-
-<style>
-
-    .box-container {
-        gap: 40px;
-        display:grid;  
-        grid-template-columns:  1fr 2fr;
-        width: min(90%, 1800px); 
-        margin-left: 80px;
-        margin-right: 80px; 
-        margin-bottom: 10px;
-        margin-top: 80px;
-    }
-
-    .box-item {
-        display:flex; 
-        background-color: white;
-        height: 100px;
-        justify-content: center;
-        text-align: center; 
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    }
-
-    .box-item:first-child {
-        grid-column:span 2; 
-        align-items: center;
-        margin-bottom:350px;
-        background-color: #f4f4f4;
-        box-shadow: none;
-         
-    }
-    .box-item:nth-child(2) {
-        height: 400px;
-    }
-    .box-item:nth-child(3) {
-        height: 400px;
-        margin-left: 50px;
-        background-color: #f4f4f4;
-        box-shadow: none;
-    }
-    .box-item:last-child {
-        grid-column:span 2;
-        align-items: center;
-        margin-top: 50px;
-    }
-
- </style>
-<!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Betting</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<header>
-
-<nav>
-    <ul>
-        <li><a href = "{{ url_for('home') }}"> Home</a></li>
-        <li><a href = "{{ url_for('one') }}"> One</a></li>
-        <li><a href = "{{ url_for('two') }}"> Two</a></li>
-        <li><a href = "{{ url_for('three') }}"> Three</a></li>
-        <li><a href = "{{ url_for('four') }}"> Four</a></li>
-        <li><a href = "{{ url_for('five') }}"> Five</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-    </ul>
-</nav>
-
-<h1>Project 4 Website!</h1>
-
-<div class = "ham">
-    &#9776; 
-</div>
-
-<div id = "side" class = "side">
-    <ul>
-        <li><a href = "{{ url_for('home') }}"> Home</a></li>
-        <li><a href = "{{ url_for('one') }}"> One</a></li>
-        <li><a href = "{{ url_for('two') }}"> Two</a></li>
-        <li><a href = "{{ url_for('three') }}"> Three</a></li>
-        <li><a href = "{{ url_for('four') }}"> Four</a></li>
-        <li><a href = "{{ url_for('five') }}"> Five</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-    </ul>
-</div>
-</header>
-
-<!-- <div class = "container-fluid">
-    <div class = "row g-3">
-
-        <section class = "col-12 col-md-2 full-height bg-white text-black d-flex align-items-center justify-content-center">
-        <p>
-            The purpose of this project is to ...................................
-        </p>
-        </section>
-
-        <section class = "col-12 col-md-4 full-height bg-beige text-black d-flex align-items-center justify-content-center">
-            <p>
-                The purpose of this project is to ...................................
-            </p>
-        </section>
-
-        <section class = "col-12 col-md-2 full-height bg-white text-black d-flex align-items-center justify-content-center">
-            <p>
-                The purpose of this project is to ...................................
-            </p>
-        </section>
-
-    </div>
-</div> -->
-<div class = "slide" id = "slide1"></div>
-<div class = "slide" id = "slide2"></div>
-
-<div class = "box-container">
-    <div class = "box-item">
-        <p>This has some content </p> 
-    </div>
-    <div class = "box-item">
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">10 Commanders
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">
+                    Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Basketball.html" class="navbar__links">
+                        Basketball
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Football.html" class="navbar__links">
+                        Football
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Soccer.html" class="navbar__links">
+                        Soccer
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Hockey.html" class="navbar__links">
+                        Hockey
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="submissions.html" class="button">
+                        Submissions
+                    </a>
+                </li>
+            
+            </ul>
+        </div>
+    </nav>
     
-        <p></p>
+
+    <!--Hero-->
+
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>NEXT GENERATION</h1>
+                <h2>MOBILE BETTING</h2>
+                <p>See what makes us different.</p>
+                <button class="main__btn"><a href="/">Get started</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/home_screen.png" alt="pic" id="main__img">
+            </div>
+        </div>
     </div>
-    <div class = "box-item">
-        <p>More content</p>
+
+    <div>
+        <h1>about us</h1>
     </div>
-    <div class = "box-item">
-        <p>even more content </p>
-    </div>
-</div>
-<script src = "static/logic.js"></script>
+
+    <script src="app.js"></script>
 </body>
 </html>
