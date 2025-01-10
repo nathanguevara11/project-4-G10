@@ -55,16 +55,52 @@
 
 <h1>Project 4 Website Page 3!</h1>
 
-<nav>
-    <ul>
-        <li><a href = "{{ url_for('home') }}"> Home</a></li>
-        <li><a href = "{{ url_for('one') }}"> One</a></li>
-        <li><a href = "{{ url_for('two') }}"> Two</a></li>
-        <li><a href = "{{ url_for('three') }}"> Three</a></li>
-        <li><a href = "{{ url_for('four') }}"> Four</a></li>
-        <li><a href = "{{ url_for('five') }}"> Five</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-    </ul>
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo">10 Commanders
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="index.html" class="navbar__links">
+                Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="Basketball.html" class="navbar__links">
+                    Basketball
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="Football.html" class="navbar__links">
+                    Football
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="Soccer.html" class="navbar__links">
+                    Soccer
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="Hockey.html" class="navbar__links">
+                    Hockey
+                </a>
+            </li>
+            <li class="navbar__btn">
+                <a href="submissions.html" class="button">
+                    Submissions
+                </a>
+            </li>
+        
+        </ul>
+    </div>
 </nav>
 
 
