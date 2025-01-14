@@ -91,3 +91,4 @@ This project demonstrates the potential of machine learning in sports betting pr
 
 NHL Data Sources - [naturalstattrick.com](https://www.naturalstattrick.com/) <br>
 NFL Data Sources - [nfl.com](http://nfl.com/), [sportradar.com](http://sportradar.com/), [developersportradar.com](http://developersportradar.com/football), [sportslogos.net](http://sportslogos.net/)
+Premier League Data - (https://www.thesportsdb.com/)
