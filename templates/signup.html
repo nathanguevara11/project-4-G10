@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
+
+
 <body>
 
     <nav class="navbar">
@@ -54,14 +56,94 @@
                     </a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="submissions.html" class="button">
-                        Submissions
+                    <a href="signup.html" class="button">
+                        Sign Up
                     </a>
                 </li>
             
             </ul>
         </div>
     </nav>
-    
+
+    <div class="signup">
+            <div class="sign__container"> 
+                <div class="forms">
+                    <div class="form login">
+                        <span class="title">Login</span>
+
+                        <form action="#">
+                            <div class="input-field">
+                                <input type="text" placeholder="Enter your email" required>
+                                <i class="fa-solid fa-envelope icon"></i>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" placeholder="Enter your password" required>
+                                <i class="fa-solid fa-lock icon"></i>
+                                <i class="fa-regular fa-eye-slash showHidePw"></i>
+                            </div>
+
+                            <div class="checkbox-text">
+                                <div class="checkbox-content">
+                                    <input type="checkbox" id="LogCheck">
+                                    <label for="LogCheck" class="text">Remember me</label>
+                                </div>
+
+                                <a href="#" class="text">Forgot password?</a>
+                            </div>
+
+                            <div class="input-field push">
+                                <input type="button" value="Login Now">
+                            </div>
+
+                        </form>
+
+                        <div class="login-signup">
+                            <span class="text">Not a member?
+                                <a href="#" class="text signup-text">Signup Now</a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--Registration form-->
+
+                    <div class="form login">
+                        <span class="title">Registration</span>
+
+                        <form action="#">
+                            <div class="input-field">
+                                <input type="text" placeholder="Enter your username" required>
+                                <i class="fa-regular fa-user icon"></i>
+                            </div>
+
+                            <div class="input-field">
+                                <input type="text" placeholder="Enter your email" required>
+                                <i class="fa-solid fa-envelope icon"></i>
+                            </div>
+                            
+                            <div class="input-field">
+                                <input type="password" placeholder="Enter your password" required>
+                                <i class="fa-solid fa-lock icon"></i>
+                                <i class="fa-regular fa-eye-slash showHidePw"></i>
+                            </div>
+
+                            <div class="checkbox-text">
+                                <div class="checkbox-content">
+                                    <input type="checkbox" id="LogCheck">
+                                    <label for="LogCheck" class="text">Remember me</label>
+                                </div>
+
+                                <a href="#" class="text">Forgot password?</a>
+                            </div>
+
+                            <div class="input-field push">
+                                <input type="button" value="Sign Up Now">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
