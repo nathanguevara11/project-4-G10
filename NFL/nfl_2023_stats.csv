@@ -1,0 +1,273 @@
+home_team,away_team,scheduled,venue,city,state,country,surface,roof_type,status,attendance,weather_condition,weather_temp,weather_humidity,weather_wind_speed,home_points,away_points,quarter_1_home_points,quarter_1_away_points,quarter_2_home_points,quarter_2_away_points,quarter_3_home_points,quarter_3_away_points,quarter_4_home_points,quarter_4_away_points
+Kansas City Chiefs,Detroit Lions,2023-09-08T00:20:00+00:00,GEHA Field at Arrowhead Stadium,Kansas City,MO,USA,turf,outdoor,closed,73522,,83,36,6,20,21,0,7,14,0,3,7,3,7
+New Orleans Saints,Tennessee Titans,2023-09-10T17:00:00+00:00,Caesars Superdome,New Orleans,LA,USA,artificial,dome,closed,70024,Controlled Climate,83,62,7,16,15,3,6,3,3,10,0,0,6
+Indianapolis Colts,Jacksonville Jaguars,2023-09-10T17:00:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,65749,Controlled Climate,72,62,3,21,31,0,7,7,7,14,3,0,14
+Minnesota Vikings,Tampa Bay Buccaneers,2023-09-10T17:00:00+00:00,U.S. Bank Stadium,Minneapolis,MN,USA,artificial,dome,closed,66741,Controlled Climate,67,64,10,17,20,0,3,10,7,0,7,7,3
+Washington Commanders,Arizona Cardinals,2023-09-10T17:00:00+00:00,Northwest Stadium,Landover,MD,USA,turf,outdoor,closed,64693,Cloudy,76,84,2,20,16,7,3,3,10,0,3,10,0
+Pittsburgh Steelers,San Francisco 49ers,2023-09-10T17:00:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,67679,Cloudy,72,83,3,7,30,0,10,7,10,0,7,0,3
+Cleveland Browns,Cincinnati Bengals,2023-09-10T17:00:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67919,Cloudy,68,83,8,24,3,0,0,10,0,3,3,11,0
+Atlanta Falcons,Carolina Panthers,2023-09-10T17:00:00+00:00,Mercedes-Benz Stadium,Atlanta,GA,USA,artificial,retractable_dome,closed,69597,Controlled Climate,72,0,0,24,10,0,0,7,7,3,3,14,0
+Baltimore Ravens,Houston Texans,2023-09-10T17:00:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,70136,Overcast,78,76,2,25,9,7,0,0,6,15,0,3,3
+Chicago Bears,Green Bay Packers,2023-09-10T20:25:00+00:00,Soldier Field,Chicago,IL,USA,turf,outdoor,closed,62456,Mostly Sunny,75,53,7,20,38,3,7,3,3,8,14,6,14
+New England Patriots,Philadelphia Eagles,2023-09-10T20:25:00+00:00,Gillette Stadium,Foxborough,MA,USA,artificial,outdoor,closed,64628,Rain,71,96,5,20,25,0,16,14,0,0,3,6,6
+Seattle Seahawks,Los Angeles Rams,2023-09-10T20:25:00+00:00,Lumen Field,Seattle,WA,USA,artificial,outdoor,closed,68683,Sunny,74,50,9,13,30,3,7,10,0,0,10,0,13
+Los Angeles Chargers,Miami Dolphins,2023-09-10T20:25:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,70240,Partly cloudy,90,40,3,34,36,7,7,10,13,7,7,10,9
+Denver Broncos,Las Vegas Raiders,2023-09-10T20:25:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76299,Overcast,64,65,12,16,17,6,7,7,3,0,0,3,7
+New York Giants,Dallas Cowboys,2023-09-11T00:20:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,80809,Rain,74,82,3,0,40,0,16,0,10,0,7,0,7
+New York Jets,Buffalo Bills,2023-09-12T00:15:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,83345,Rain,72,88,3,22,16,0,3,3,10,3,0,10,3
+Philadelphia Eagles,Minnesota Vikings,2023-09-15T00:15:00+00:00,Lincoln Financial Field,Philadelphia,PA,USA,turf,outdoor,closed,69879,Clear,72,43,8,34,28,3,0,10,7,14,7,7,14
+Tampa Bay Buccaneers,Chicago Bears,2023-09-17T17:00:00+00:00,Raymond James Stadium,Tampa,FL,USA,turf,outdoor,closed,62976,Cloudy,89,68,6,27,17,3,7,10,3,7,0,7,7
+Atlanta Falcons,Green Bay Packers,2023-09-17T17:00:00+00:00,Mercedes-Benz Stadium,Atlanta,GA,USA,artificial,retractable_dome,closed,69251,Controlled Climate,69,25,0,25,24,3,0,6,10,3,14,13,0
+Houston Texans,Indianapolis Colts,2023-09-17T17:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,71159,Controlled Climate,85,47,6,20,31,7,14,3,14,0,3,10,0
+Detroit Lions,Seattle Seahawks,2023-09-17T17:00:00+00:00,Ford Field,Detroit,MI,USA,artificial,dome,closed,66434,Controlled Climate,68,70,5,31,37,7,7,7,0,7,10,10,14
+Tennessee Titans,Los Angeles Chargers,2023-09-17T17:00:00+00:00,Nissan Stadium,Nashville,TN,USA,turf,outdoor,closed,67438,Cloudy,64,85,11,27,24,0,3,10,11,7,0,7,10
+Cincinnati Bengals,Baltimore Ravens,2023-09-17T17:00:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,66015,Cloudy,72,54,4,24,27,0,7,10,6,7,7,7,7
+Buffalo Bills,Las Vegas Raiders,2023-09-17T17:00:00+00:00,Highmark Stadium,Orchard Park,NY,USA,artificial,outdoor,closed,70772,Partly cloudy,70,57,4,38,10,7,7,14,3,7,0,10,0
+Jacksonville Jaguars,Kansas City Chiefs,2023-09-17T17:00:00+00:00,EverBank Stadium,Jacksonville,FL,USA,turf,outdoor,closed,69915,Partly cloudy,87,68,5,9,17,0,0,6,7,0,7,3,3
+Los Angeles Rams,San Francisco 49ers,2023-09-17T20:05:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,74742,Cloudy,71,82,2,23,30,3,7,14,10,0,3,6,10
+Arizona Cardinals,New York Giants,2023-09-17T20:05:00+00:00,State Farm Stadium,Glendale,AZ,USA,turf,retractable_dome,closed,62080,Controlled Climate,97,14,6,28,31,7,0,13,0,8,14,0,17
+Dallas Cowboys,New York Jets,2023-09-17T20:25:00+00:00,AT&T Stadium,Arlington,TX,USA,artificial,retractable_dome,closed,93689,Controlled Climate,90,30,6,30,10,7,0,11,10,6,0,6,0
+Denver Broncos,Washington Commanders,2023-09-17T20:25:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76108,Sunny,81,24,5,33,35,14,3,7,11,3,7,9,14
+New England Patriots,Miami Dolphins,2023-09-18T00:20:00+00:00,Gillette Stadium,Foxborough,MA,USA,artificial,outdoor,closed,64628,Clear,63,77,3,17,24,0,3,3,14,0,0,14,7
+Carolina Panthers,New Orleans Saints,2023-09-18T23:15:00+00:00,Bank of America Stadium,Charlotte,NC,USA,artificial,outdoor,closed,72709,Sunny,78,42,2,17,20,3,3,0,3,3,7,11,7
+Pittsburgh Steelers,Cleveland Browns,2023-09-19T00:15:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,67576,Clear,62,66,6,26,22,7,3,9,11,3,8,7,0
+San Francisco 49ers,New York Giants,2023-09-22T00:15:00+00:00,Levi's Stadium,Santa Clara,CA,USA,turf,outdoor,closed,71593,Sunny,77,41,13,30,12,3,3,14,3,3,6,10,0
+Baltimore Ravens,Indianapolis Colts,2023-09-24T17:00:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,70038,Steady rain,68,88,3,19,22,7,0,0,10,7,3,5,6
+Miami Dolphins,Denver Broncos,2023-09-24T17:00:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,65522,Partly Cloudy,86,65,5,70,20,14,7,21,6,14,0,21,7
+New York Jets,New England Patriots,2023-09-24T17:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,80876,Threat of rain,64,90,14,10,15,0,3,3,7,0,3,7,2
+Jacksonville Jaguars,Houston Texans,2023-09-24T17:00:00+00:00,EverBank Stadium,Jacksonville,FL,USA,turf,outdoor,closed,61466,Partly cloudy,84,51,6,17,37,0,7,0,10,10,7,7,13
+Cleveland Browns,Tennessee Titans,2023-09-24T17:00:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67919,Sun/Clouds,68,69,5,27,3,3,0,10,3,7,0,7,0
+Detroit Lions,Atlanta Falcons,2023-09-24T17:00:00+00:00,Ford Field,Detroit,MI,USA,artificial,dome,closed,63803,Controlled Climate,68,70,0,20,6,3,0,10,3,0,0,7,3
+Green Bay Packers,New Orleans Saints,2023-09-24T17:00:00+00:00,Lambeau Field,Green Bay,WI,USA,turf,outdoor,closed,78043,Cloudy,68,68,10,18,17,0,7,0,10,0,0,18,0
+Washington Commanders,Buffalo Bills,2023-09-24T17:00:00+00:00,Northwest Stadium,Landover,MD,USA,turf,outdoor,closed,64291,Rain,65,96,1,3,37,0,10,0,6,0,0,3,21
+Minnesota Vikings,Los Angeles Chargers,2023-09-24T17:00:00+00:00,U.S. Bank Stadium,Minneapolis,MN,USA,artificial,dome,closed,66878,Controlled Climate,67,75,8,24,28,0,7,10,7,7,7,7,7
+Seattle Seahawks,Carolina Panthers,2023-09-24T20:05:00+00:00,Lumen Field,Seattle,WA,USA,artificial,outdoor,closed,68699,Cloudy,61,76,2,37,27,3,3,9,10,10,0,15,14
+Kansas City Chiefs,Chicago Bears,2023-09-24T20:25:00+00:00,GEHA Field at Arrowhead Stadium,Kansas City,MO,USA,turf,outdoor,closed,73562,,82,37,9,41,10,7,0,27,0,7,0,0,10
+Arizona Cardinals,Dallas Cowboys,2023-09-24T20:25:00+00:00,State Farm Stadium,Glendale,AZ,USA,turf,retractable_dome,closed,62915,Controlled Climate,93,20,2,28,16,9,3,12,7,0,3,7,3
+Las Vegas Raiders,Pittsburgh Steelers,2023-09-25T00:20:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,62541,Controlled Climate,87,21,8,18,23,7,7,0,6,0,10,11,0
+Tampa Bay Buccaneers,Philadelphia Eagles,2023-09-25T23:15:00+00:00,Raymond James Stadium,Tampa,FL,USA,turf,outdoor,closed,65426,Cloudy,90,60,4,11,25,0,3,3,10,0,9,8,3
+Cincinnati Bengals,Los Angeles Rams,2023-09-26T00:15:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,65158,Clear,74,62,7,19,16,0,3,6,3,10,3,3,7
+Green Bay Packers,Detroit Lions,2023-09-29T00:15:00+00:00,Lambeau Field,Green Bay,WI,USA,turf,outdoor,closed,78052,Cloudy,64,75,8,20,34,3,14,0,13,8,0,9,7
+Jacksonville Jaguars,Atlanta Falcons,2023-10-01T13:30:00+00:00,Wembley Stadium,London,,GBR,turf,retractable_dome,closed,85716,Cloudy,72,75,8,23,7,7,0,10,0,0,7,6,0
+Houston Texans,Pittsburgh Steelers,2023-10-01T17:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,71399,Controlled Climate,90,47,12,30,6,10,0,6,0,0,6,14,0
+Indianapolis Colts,Los Angeles Rams,2023-10-01T17:00:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,65337,Controlled Climate,80,57,2,23,29,0,14,0,6,8,3,15,0
+Carolina Panthers,Minnesota Vikings,2023-10-01T17:00:00+00:00,Bank of America Stadium,Charlotte,NC,USA,artificial,outdoor,closed,72842,Partly cloudy,78,50,7,13,21,7,0,6,7,0,14,0,0
+New Orleans Saints,Tampa Bay Buccaneers,2023-10-01T17:00:00+00:00,Caesars Superdome,New Orleans,LA,USA,artificial,dome,closed,70003,Controlled Climate,82,70,11,9,26,3,0,0,14,3,0,3,12
+Philadelphia Eagles,Washington Commanders,2023-10-01T17:00:00+00:00,Lincoln Financial Field,Philadelphia,PA,USA,turf,outdoor,closed,69879,,76,54,10,34,31,7,7,3,10,11,0,10,14
+Buffalo Bills,Miami Dolphins,2023-10-01T17:00:00+00:00,Highmark Stadium,Orchard Park,NY,USA,artificial,outdoor,closed,70881,Partly cloudy,70,71,2,48,20,14,7,17,7,10,6,7,0
+Tennessee Titans,Cincinnati Bengals,2023-10-01T17:00:00+00:00,Nissan Stadium,Nashville,TN,USA,turf,outdoor,closed,68951,Sunny,82,50,4,27,3,3,3,21,0,3,0,0,0
+Cleveland Browns,Baltimore Ravens,2023-10-01T17:00:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67919,Sunny,71,79,7,3,28,3,7,0,14,0,0,0,7
+Chicago Bears,Denver Broncos,2023-10-01T17:00:00+00:00,Soldier Field,Chicago,IL,USA,turf,outdoor,closed,62220,Partly cloudy,80,64,2,28,31,0,7,21,0,7,7,0,17
+Los Angeles Chargers,Las Vegas Raiders,2023-10-01T20:05:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,70240,Partly Cloudy,67,60,5,24,17,7,7,17,0,0,3,0,7
+Dallas Cowboys,New England Patriots,2023-10-01T20:25:00+00:00,AT&T Stadium,Arlington,TX,USA,artificial,retractable_dome,closed,93719,Controlled Climate,91,29,7,38,3,10,3,18,0,3,0,7,0
+San Francisco 49ers,Arizona Cardinals,2023-10-01T20:25:00+00:00,Levi's Stadium,Santa Clara,CA,USA,turf,outdoor,closed,71521,Sunny,75,36,9,35,16,7,0,14,10,0,6,14,0
+New York Jets,Kansas City Chiefs,2023-10-02T00:20:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,80461,Clear,69,71,5,20,23,0,17,12,3,8,0,0,3
+New York Giants,Seattle Seahawks,2023-10-03T00:15:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,78507,Fair,67,79,8,3,24,0,7,3,7,0,7,0,3
+Washington Commanders,Chicago Bears,2023-10-06T00:15:00+00:00,Northwest Stadium,Landover,MD,USA,turf,outdoor,closed,63727,Cloudy,70,83,1,20,40,0,10,3,17,11,0,6,13
+Buffalo Bills,Jacksonville Jaguars,2023-10-08T13:30:00+00:00,Tottenham Hotspur Stadium,London,,GBR,artificial,outdoor,closed,61273,Partly Cloudy,75,52,7,20,25,0,11,7,0,0,0,13,14
+Indianapolis Colts,Tennessee Titans,2023-10-08T17:00:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,65287,Cloudy,53,56,15,23,16,7,3,3,3,7,10,6,0
+Atlanta Falcons,Houston Texans,2023-10-08T17:00:00+00:00,Mercedes-Benz Stadium,Atlanta,GA,USA,artificial,retractable_dome,closed,69461,Sunny,63,39,8,21,19,7,3,0,6,0,3,14,7
+Detroit Lions,Carolina Panthers,2023-10-08T17:00:00+00:00,Ford Field,Detroit,MI,USA,artificial,dome,closed,63648,Controlled Climate,68,70,0,42,24,14,0,14,10,0,0,14,14
+Pittsburgh Steelers,Baltimore Ravens,2023-10-08T17:00:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,67272,Partly cloudy,53,62,13,17,10,0,7,3,3,0,0,14,0
+New England Patriots,New Orleans Saints,2023-10-08T17:00:00+00:00,Gillette Stadium,Foxborough,MA,USA,artificial,outdoor,closed,64628,Sunny,61,52,10,0,34,0,7,0,14,0,3,0,10
+Miami Dolphins,New York Giants,2023-10-08T17:00:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,65654,Partly cloudy,88,60,8,31,16,7,0,10,10,14,3,0,3
+Los Angeles Rams,Philadelphia Eagles,2023-10-08T20:05:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,74935,Sunny,71,59,3,14,23,7,7,7,10,0,0,0,6
+Arizona Cardinals,Cincinnati Bengals,2023-10-08T20:05:00+00:00,State Farm Stadium,Glendale,AZ,USA,turf,retractable_dome,closed,62651,Controlled Climate,95,17,13,20,34,0,10,14,7,6,7,0,10
+Denver Broncos,New York Jets,2023-10-08T20:25:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76387,Sunny,73,17,9,21,31,7,5,6,3,0,10,8,13
+Minnesota Vikings,Kansas City Chiefs,2023-10-08T20:25:00+00:00,U.S. Bank Stadium,Minneapolis,MN,USA,artificial,dome,closed,67003,Controlled Climate,58,46,7,20,27,3,7,10,6,0,14,7,0
+San Francisco 49ers,Dallas Cowboys,2023-10-09T00:20:00+00:00,Levi's Stadium,Santa Clara,CA,USA,turf,outdoor,closed,71617,Sunny,78,53,10,42,10,7,0,14,7,7,3,14,0
+Las Vegas Raiders,Green Bay Packers,2023-10-10T00:15:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,62572,Controlled Climate,93,11,12,17,13,0,3,10,0,0,10,7,0
+Kansas City Chiefs,Denver Broncos,2023-10-13T00:15:00+00:00,GEHA Field at Arrowhead Stadium,Kansas City,MO,USA,turf,outdoor,closed,73528,,62,67,15,19,8,3,0,10,0,3,0,3,8
+Tennessee Titans,Baltimore Ravens,2023-10-15T13:30:00+00:00,Tottenham Hotspur Stadium,London,,GBR,artificial,outdoor,closed,61011,Sunny,52,44,8,16,24,3,6,0,12,10,0,3,6
+Atlanta Falcons,Washington Commanders,2023-10-15T17:00:00+00:00,Mercedes-Benz Stadium,Atlanta,GA,USA,artificial,retractable_dome,closed,69921,Controlled Climate,62,72,11,16,24,7,3,3,14,0,7,6,0
+Cleveland Browns,San Francisco 49ers,2023-10-15T17:00:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67431,Cloudy,53,70,15,19,17,0,7,7,3,6,0,6,7
+Houston Texans,New Orleans Saints,2023-10-15T17:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,71810,Controlled Climate,67,53,14,20,13,7,7,10,3,3,3,0,0
+Miami Dolphins,Carolina Panthers,2023-10-15T17:00:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,65529,Sunny,87,56,12,42,21,0,14,21,0,7,0,14,7
+Cincinnati Bengals,Seattle Seahawks,2023-10-15T17:00:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,66385,Cloudy,57,59,15,17,13,7,7,7,3,0,3,3,0
+Jacksonville Jaguars,Indianapolis Colts,2023-10-15T17:00:00+00:00,EverBank Stadium,Jacksonville,FL,USA,turf,outdoor,closed,64851,,68,57,10,37,20,0,3,21,3,10,0,6,14
+Chicago Bears,Minnesota Vikings,2023-10-15T17:00:00+00:00,Soldier Field,Chicago,IL,USA,turf,outdoor,closed,62167,Partly Cloudy,53,74,16,13,19,0,3,6,9,0,7,7,0
+Las Vegas Raiders,New England Patriots,2023-10-15T20:05:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,61985,Controlled Climate,81,13,5,21,17,3,0,10,3,3,7,5,7
+Los Angeles Rams,Arizona Cardinals,2023-10-15T20:25:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,71202,Sunny,82,47,3,26,9,3,3,3,6,10,0,10,0
+Tampa Bay Buccaneers,Detroit Lions,2023-10-15T20:25:00+00:00,Raymond James Stadium,Tampa,FL,USA,turf,outdoor,closed,65854,Clody,77,55,13,6,20,0,3,3,7,3,7,0,3
+New York Jets,Philadelphia Eagles,2023-10-15T20:25:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,83068,Partly Cloudy,59,54,11,20,14,0,7,9,7,3,0,8,0
+Buffalo Bills,New York Giants,2023-10-16T00:20:00+00:00,Highmark Stadium,Orchard Park,NY,USA,artificial,outdoor,closed,70515,Cloudy,46,90,7,14,9,0,3,0,3,0,0,14,3
+Los Angeles Chargers,Dallas Cowboys,2023-10-17T00:15:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,70240,Clear,74,62,7,17,20,7,7,0,3,3,0,7,10
+New Orleans Saints,Jacksonville Jaguars,2023-10-20T00:15:00+00:00,Caesars Superdome,New Orleans,LA,USA,artificial,dome,closed,70009,Controlled Climate,79,57,8,24,31,3,7,3,10,3,7,15,7
+Baltimore Ravens,Detroit Lions,2023-10-22T17:00:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,70989,Sunny,62,42,16,38,6,14,0,14,0,7,0,3,6
+Tampa Bay Buccaneers,Atlanta Falcons,2023-10-22T17:00:00+00:00,Raymond James Stadium,Tampa,FL,USA,turf,outdoor,closed,62620,Cloudy,79,47,3,13,16,7,7,3,3,0,3,3,3
+New York Giants,Washington Commanders,2023-10-22T17:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,81671,Mostly Cloudy,54,51,14,14,7,0,0,14,0,0,7,0,0
+Chicago Bears,Las Vegas Raiders,2023-10-22T17:00:00+00:00,Soldier Field,Chicago,IL,USA,turf,outdoor,closed,62199,Partly cloudy,52,68,8,30,12,7,0,7,3,7,0,9,9
+New England Patriots,Buffalo Bills,2023-10-22T17:00:00+00:00,Gillette Stadium,Foxborough,MA,USA,artificial,outdoor,closed,64628,Partly Cloudy,55,65,13,29,25,10,0,3,3,3,7,13,15
+Indianapolis Colts,Cleveland Browns,2023-10-22T17:00:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,65552,Sunny,53,48,6,38,39,14,7,7,20,7,3,10,9
+Los Angeles Rams,Pittsburgh Steelers,2023-10-22T20:05:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,73471,Sunny,74,57,5,17,24,0,0,9,3,8,7,0,14
+Seattle Seahawks,Arizona Cardinals,2023-10-22T20:05:00+00:00,Lumen Field,Seattle,WA,USA,artificial,outdoor,closed,68781,Cloudy,56,83,5,20,10,7,3,7,7,3,0,3,0
+Kansas City Chiefs,Los Angeles Chargers,2023-10-22T20:25:00+00:00,GEHA Field at Arrowhead Stadium,Kansas City,MO,USA,turf,outdoor,closed,73642,Sunny,72,35,10,31,17,3,3,21,14,0,0,7,0
+Denver Broncos,Green Bay Packers,2023-10-22T20:25:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76880,Sunny,72,22,9,19,17,3,0,6,0,7,10,3,7
+Philadelphia Eagles,Miami Dolphins,2023-10-23T00:20:00+00:00,Lincoln Financial Field,Philadelphia,PA,USA,turf,outdoor,closed,69879,Partly Cloudy,55,44,17,31,17,3,3,14,7,7,7,7,0
+Minnesota Vikings,San Francisco 49ers,2023-10-24T00:15:00+00:00,U.S. Bank Stadium,Minneapolis,MN,USA,artificial,dome,closed,66975,Controlled Climate,60,69,4,22,17,7,0,9,7,6,7,0,3
+Buffalo Bills,Tampa Bay Buccaneers,2023-10-27T00:15:00+00:00,Highmark Stadium,Orchard Park,NY,USA,artificial,outdoor,closed,70416,Partly Cloudy,66,60,10,24,18,3,0,14,10,7,0,0,8
+Washington Commanders,Philadelphia Eagles,2023-10-29T17:00:00+00:00,Northwest Stadium,Landover,MD,USA,turf,outdoor,closed,64653,Cloudy,69,77,4,31,38,7,3,10,7,0,7,14,21
+Indianapolis Colts,New Orleans Saints,2023-10-29T17:00:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,65427,Controlled Climate,51,92,8,27,38,7,7,13,14,0,7,7,10
+Pittsburgh Steelers,Jacksonville Jaguars,2023-10-29T17:00:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,67225,Rain,58,95,2,10,20,0,6,3,3,7,8,0,3
+New York Giants,New York Jets,2023-10-29T17:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,83367,"Light Rain, Mist",52,89,6,10,13,3,7,0,0,7,0,0,3
+Carolina Panthers,Houston Texans,2023-10-29T17:00:00+00:00,Bank of America Stadium,Charlotte,NC,USA,artificial,outdoor,closed,71505,Sunny,77,50,14,15,13,0,0,6,7,6,6,3,0
+Miami Dolphins,New England Patriots,2023-10-29T17:00:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,65836,Partly Cloudy,83,68,17,31,17,7,7,10,0,7,3,7,7
+Tennessee Titans,Atlanta Falcons,2023-10-29T17:00:00+00:00,Nissan Stadium,Nashville,TN,USA,turf,outdoor,closed,68008,Cloudy,77,52,7,28,23,7,3,7,0,7,6,7,14
+Green Bay Packers,Minnesota Vikings,2023-10-29T17:00:00+00:00,Lambeau Field,Green Bay,WI,USA,turf,outdoor,closed,78113,Cloudy,39,62,8,10,24,0,7,3,3,7,14,0,0
+Dallas Cowboys,Los Angeles Rams,2023-10-29T17:00:00+00:00,AT&T Stadium,Arlington,TX,USA,artificial,retractable_dome,closed,93448,Controlled Climate,45,100,13,43,20,17,3,16,6,3,8,7,3
+Seattle Seahawks,Cleveland Browns,2023-10-29T20:05:00+00:00,Lumen Field,Seattle,WA,USA,artificial,outdoor,closed,68807,Sunny,47,60,3,24,20,17,7,0,7,0,6,7,0
+Denver Broncos,Kansas City Chiefs,2023-10-29T20:25:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76286,Partly cloudy,26,55,7,24,9,7,3,7,6,0,0,10,0
+San Francisco 49ers,Cincinnati Bengals,2023-10-29T20:25:00+00:00,Levi's Stadium,Santa Clara,CA,USA,turf,outdoor,closed,71655,Sunny,74,15,10,17,31,7,14,3,0,0,3,7,14
+Arizona Cardinals,Baltimore Ravens,2023-10-29T20:25:00+00:00,State Farm Stadium,Glendale,AZ,USA,turf,retractable_dome,closed,63064,Controlled Climate,75,10,6,24,31,7,7,0,7,0,7,17,10
+Los Angeles Chargers,Chicago Bears,2023-10-30T00:20:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,70240,Clear,76,15,9,30,13,14,0,10,7,6,0,0,6
+Detroit Lions,Las Vegas Raiders,2023-10-31T00:15:00+00:00,Ford Field,Detroit,MI,USA,artificial,dome,closed,66774,Controlled Climate,72,58,9,26,14,3,0,13,7,7,7,3,0
+Pittsburgh Steelers,Tennessee Titans,2023-11-03T00:15:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,65969,Mostly Clear,40,58,5,20,16,7,3,3,10,3,3,7,0
+Kansas City Chiefs,Miami Dolphins,2023-11-05T14:30:00+00:00,Deutsche Bank Park,Frankfurt,,DEU,turf,retractable_dome,closed,50023,Light Rain,53,81,14,21,14,7,0,14,0,0,14,0,0
+Atlanta Falcons,Minnesota Vikings,2023-11-05T18:00:00+00:00,Mercedes-Benz Stadium,Atlanta,GA,USA,artificial,retractable_dome,closed,69715,Clear,70,38,0,28,31,3,3,8,7,10,11,7,10
+Baltimore Ravens,Seattle Seahawks,2023-11-05T18:00:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,70753,Clear,70,32,6,37,3,0,0,17,3,13,0,7,0
+New Orleans Saints,Chicago Bears,2023-11-05T18:00:00+00:00,Caesars Superdome,New Orleans,LA,USA,artificial,dome,closed,70006,Controlled Climate,72,59,7,24,17,7,7,7,7,3,3,7,0
+Cleveland Browns,Arizona Cardinals,2023-11-05T18:00:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67919,Sunny,56,58,7,27,0,0,0,13,0,7,0,7,0
+Houston Texans,Tampa Bay Buccaneers,2023-11-05T18:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,70785,Controlled Climate,80,60,5,39,37,7,10,3,7,12,6,17,14
+New England Patriots,Washington Commanders,2023-11-05T18:00:00+00:00,Gillette Stadium,Foxborough,MA,USA,artificial,outdoor,closed,64628,Mostly Sunny,62,51,6,17,20,0,3,14,7,3,10,0,0
+Green Bay Packers,Los Angeles Rams,2023-11-05T18:00:00+00:00,Lambeau Field,Green Bay,WI,USA,turf,outdoor,closed,77409,Cloudy,51,54,8,20,3,0,0,7,3,3,0,10,0
+Carolina Panthers,Indianapolis Colts,2023-11-05T21:05:00+00:00,Bank of America Stadium,Charlotte,NC,USA,artificial,outdoor,closed,72301,Clear,75,31,2,13,27,0,0,3,20,7,0,3,7
+Philadelphia Eagles,Dallas Cowboys,2023-11-05T21:25:00+00:00,Lincoln Financial Field,Philadelphia,PA,USA,turf,outdoor,closed,69879,Clear,64,41,6,28,23,7,7,7,10,14,0,0,6
+Las Vegas Raiders,New York Giants,2023-11-05T21:25:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,62082,Controlled Climate,73,13,5,30,6,7,0,17,0,3,0,3,6
+Cincinnati Bengals,Buffalo Bills,2023-11-06T01:20:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,66965,Mostly Clear,51,61,5,24,18,14,7,7,0,0,3,3,8
+New York Jets,Los Angeles Chargers,2023-11-07T01:15:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,75407,Mostly Cloudy and Cool,48,83,4,6,27,0,14,3,3,3,0,0,10
+Chicago Bears,Carolina Panthers,2023-11-10T01:15:00+00:00,Soldier Field,Chicago,IL,USA,turf,outdoor,closed,61200,Clear,51,40,8,16,13,3,7,6,3,7,0,0,3
+New England Patriots,Indianapolis Colts,2023-11-12T14:30:00+00:00,Deutsche Bank Park,Frankfurt,,DEU,turf,retractable_dome,closed,50144,Cloudy,47,78,1,6,10,3,7,0,0,0,0,3,3
+Pittsburgh Steelers,Green Bay Packers,2023-11-12T18:00:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,67617,Partly Cloudy,50,58,5,23,19,7,7,10,6,3,6,3,0
+Minnesota Vikings,New Orleans Saints,2023-11-12T18:00:00+00:00,U.S. Bank Stadium,Minneapolis,MN,USA,artificial,dome,closed,66933,Controlled Climate,51,52,11,27,19,3,3,21,0,3,8,0,8
+Cincinnati Bengals,Houston Texans,2023-11-12T18:00:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,66526,Sunny,56,42,6,27,30,7,0,0,10,10,10,10,10
+Baltimore Ravens,Cleveland Browns,2023-11-12T18:00:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,70424,Clear,49,46,4,31,33,17,3,0,6,7,8,7,16
+Tampa Bay Buccaneers,Tennessee Titans,2023-11-12T18:00:00+00:00,Raymond James Stadium,Tampa,FL,USA,turf,outdoor,closed,62725,Cloudy,85,66,6,20,6,0,3,7,0,10,0,3,3
+Jacksonville Jaguars,San Francisco 49ers,2023-11-12T18:00:00+00:00,EverBank Stadium,Jacksonville,FL,USA,turf,outdoor,closed,69271,Cloudy,59,94,11,3,34,0,10,3,3,0,14,0,7
+Los Angeles Chargers,Detroit Lions,2023-11-12T21:05:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,70240,Sunny,79,10,5,38,41,3,10,14,14,7,7,14,10
+Arizona Cardinals,Atlanta Falcons,2023-11-12T21:05:00+00:00,State Farm Stadium,Glendale,AZ,USA,turf,retractable_dome,closed,62861,Controlled Climate,0,0,0,25,23,3,0,9,14,10,3,3,6
+Seattle Seahawks,Washington Commanders,2023-11-12T21:25:00+00:00,Lumen Field,Seattle,WA,USA,artificial,outdoor,closed,68721,Cloudy,52,76,4,29,26,3,6,6,3,7,3,13,14
+Dallas Cowboys,New York Giants,2023-11-12T21:25:00+00:00,AT&T Stadium,Arlington,TX,USA,artificial,retractable_dome,closed,93338,Controlled Climate,63,45,4,49,17,7,0,21,0,14,7,7,10
+Las Vegas Raiders,New York Jets,2023-11-13T01:20:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,62383,Controlled Climate,71,13,2,16,12,3,6,3,3,3,0,7,3
+Buffalo Bills,Denver Broncos,2023-11-14T01:15:00+00:00,Highmark Stadium,Orchard Park,NY,USA,artificial,outdoor,closed,70318,Mostly cloudy,49,61,10,22,24,0,3,8,12,7,0,7,9
+Baltimore Ravens,Cincinnati Bengals,2023-11-17T01:15:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,70997,Clear,56,54,1,34,20,7,3,14,7,6,3,7,7
+Carolina Panthers,Dallas Cowboys,2023-11-19T18:00:00+00:00,Bank of America Stadium,Charlotte,NC,USA,artificial,outdoor,closed,73543,Sunny,65,28,2,10,33,0,7,3,10,7,0,0,16
+Cleveland Browns,Pittsburgh Steelers,2023-11-19T18:00:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67919,Sunny,48,67,11,13,10,7,0,3,0,0,7,3,3
+Detroit Lions,Chicago Bears,2023-11-19T18:00:00+00:00,Ford Field,Detroit,MI,USA,artificial,dome,closed,63873,Controlled Climate,68,70,8,31,26,0,7,14,3,0,10,17,6
+Houston Texans,Arizona Cardinals,2023-11-19T18:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,70247,Controlled Climate,68,73,14,21,16,7,10,14,0,0,6,0,0
+Miami Dolphins,Las Vegas Raiders,2023-11-19T18:00:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,66026,Partly cloudy,82,71,7,20,13,7,10,7,3,6,0,0,0
+Washington Commanders,New York Giants,2023-11-19T18:00:00+00:00,Northwest Stadium,Landover,MD,USA,turf,outdoor,closed,62714,Sunny,56,32,7,19,31,3,7,6,7,3,0,7,17
+Green Bay Packers,Los Angeles Chargers,2023-11-19T18:00:00+00:00,Lambeau Field,Green Bay,WI,USA,turf,outdoor,closed,77432,Sunny,45,55,5,23,20,0,3,10,7,6,3,7,7
+Jacksonville Jaguars,Tennessee Titans,2023-11-19T18:00:00+00:00,EverBank Stadium,Jacksonville,FL,USA,turf,outdoor,closed,67175,Partly cloudy,75,62,3,34,14,7,0,6,0,14,7,7,7
+San Francisco 49ers,Tampa Bay Buccaneers,2023-11-19T21:05:00+00:00,Levi's Stadium,Santa Clara,CA,USA,turf,outdoor,closed,71607,"Sunny, Clear",65,52,10,27,14,7,0,6,7,14,0,0,7
+Buffalo Bills,New York Jets,2023-11-19T21:25:00+00:00,Highmark Stadium,Orchard Park,NY,USA,artificial,outdoor,closed,70603,Clear,40,60,9,32,6,6,0,10,6,13,0,3,0
+Los Angeles Rams,Seattle Seahawks,2023-11-19T21:25:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,72704,Sunny,72,32,7,17,16,0,7,7,6,0,3,10,0
+Denver Broncos,Minnesota Vikings,2023-11-20T01:20:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76848,Cloudy,53,30,3,21,20,3,0,6,10,0,7,12,3
+Kansas City Chiefs,Philadelphia Eagles,2023-11-21T01:15:00+00:00,GEHA Field at Arrowhead Stadium,Kansas City,MO,USA,turf,outdoor,closed,73754,Light Rain,45,90,12,17,21,7,7,10,0,0,7,0,7
+Detroit Lions,Green Bay Packers,2023-11-23T17:30:00+00:00,Ford Field,Detroit,MI,USA,artificial,dome,closed,66476,Controlled Climate,68,70,12,22,29,6,20,0,3,8,6,8,0
+Dallas Cowboys,Washington Commanders,2023-11-23T21:30:00+00:00,AT&T Stadium,Arlington,TX,USA,artificial,retractable_dome,closed,93711,Controlled Climate,62,34,11,45,10,7,0,13,10,0,0,25,0
+Seattle Seahawks,San Francisco 49ers,2023-11-24T01:20:00+00:00,Lumen Field,Seattle,WA,USA,artificial,outdoor,closed,68702,Mostly Sunny,39,91,4,13,31,3,7,0,17,10,0,0,7
+New York Jets,Miami Dolphins,2023-11-24T20:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,82973,Partly Sunny and Cool,48,45,11,13,34,0,3,6,14,0,3,7,14
+Houston Texans,Jacksonville Jaguars,2023-11-26T18:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,71324,Controlled Climate,57,78,8,21,24,0,3,7,10,7,8,7,3
+Cincinnati Bengals,Pittsburgh Steelers,2023-11-26T18:00:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,65090,Rain,48,78,9,10,16,0,0,7,3,0,7,3,6
+Tennessee Titans,Carolina Panthers,2023-11-26T18:00:00+00:00,Nissan Stadium,Nashville,TN,USA,turf,outdoor,closed,62493,Cloudy,51,82,13,17,10,7,0,10,3,0,7,0,0
+Atlanta Falcons,New Orleans Saints,2023-11-26T18:00:00+00:00,Mercedes-Benz Stadium,Atlanta,GA,USA,artificial,retractable_dome,closed,70166,Controlled Climate,72,0,0,24,15,7,3,7,6,0,3,10,3
+Indianapolis Colts,Tampa Bay Buccaneers,2023-11-26T18:00:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,64407,Controlled Climate,37,98,3,27,20,10,3,7,7,3,0,7,10
+New York Giants,New England Patriots,2023-11-26T18:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,82211,Mostly Cloudy,43,65,6,10,7,0,0,7,0,0,7,3,0
+Denver Broncos,Cleveland Browns,2023-11-26T21:05:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76261,Sunny,40,37,5,29,12,7,0,7,6,3,6,12,0
+Arizona Cardinals,Los Angeles Rams,2023-11-26T21:05:00+00:00,State Farm Stadium,Glendale,AZ,USA,turf,retractable_dome,closed,62177,Controlled Climate,68,16,7,14,37,8,7,0,14,0,3,6,13
+Philadelphia Eagles,Buffalo Bills,2023-11-26T21:25:00+00:00,Lincoln Financial Field,Philadelphia,PA,USA,turf,outdoor,closed,69879,Rain,47,88,6,37,34,7,0,0,17,7,7,17,7
+Las Vegas Raiders,Kansas City Chiefs,2023-11-26T21:25:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,62441,Controlled Climate,55,26,14,17,31,7,0,7,14,3,7,0,10
+Los Angeles Chargers,Baltimore Ravens,2023-11-27T01:20:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,70240,Clear,64,29,5,10,20,3,0,0,10,0,3,7,7
+Minnesota Vikings,Chicago Bears,2023-11-28T01:15:00+00:00,U.S. Bank Stadium,Minneapolis,MN,USA,artificial,dome,closed,66843,Controlled Climate,16,54,12,10,12,0,0,3,3,0,3,7,6
+Dallas Cowboys,Seattle Seahawks,2023-12-01T01:15:00+00:00,AT&T Stadium,Arlington,TX,USA,artificial,retractable_dome,closed,93367,Controlled Climate,61,94,3,41,35,10,7,10,14,7,7,14,7
+Houston Texans,Denver Broncos,2023-12-03T18:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,71670,Controlled Climate,68,28,2,22,17,10,0,3,3,3,7,6,7
+Washington Commanders,Miami Dolphins,2023-12-03T18:00:00+00:00,Northwest Stadium,Landover,MD,USA,turf,outdoor,closed,63459,Mist,53,99,2,15,45,0,17,7,14,8,7,0,7
+Tennessee Titans,Indianapolis Colts,2023-12-03T18:00:00+00:00,Nissan Stadium,Nashville,TN,USA,turf,outdoor,closed,62641,Partly Sunny,53,77,13,28,31,10,7,7,6,2,9,6,3
+New York Jets,Atlanta Falcons,2023-12-03T18:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,74455,Cloudy,50,90,8,8,13,2,0,3,10,3,3,0,0
+Pittsburgh Steelers,Arizona Cardinals,2023-12-03T18:00:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,66436,Mostly Cloudy,56,88,12,10,24,3,3,0,7,0,7,7,7
+New Orleans Saints,Detroit Lions,2023-12-03T18:00:00+00:00,Caesars Superdome,New Orleans,LA,USA,artificial,dome,closed,70003,Controlled Climate,65,84,6,28,33,0,21,7,3,14,3,7,6
+New England Patriots,Los Angeles Chargers,2023-12-03T18:00:00+00:00,Gillette Stadium,Foxborough,MA,USA,artificial,outdoor,closed,64628,Rain,44,94,8,0,6,0,0,0,6,0,0,0,0
+Tampa Bay Buccaneers,Carolina Panthers,2023-12-03T21:05:00+00:00,Raymond James Stadium,Tampa,FL,USA,turf,outdoor,closed,62432,Cloudy,81,77,8,21,18,7,0,0,3,7,7,7,8
+Philadelphia Eagles,San Francisco 49ers,2023-12-03T21:25:00+00:00,Lincoln Financial Field,Philadelphia,PA,USA,turf,outdoor,closed,69879,Cloudy,52,95,44,19,42,6,0,0,14,7,14,6,14
+Los Angeles Rams,Cleveland Browns,2023-12-03T21:25:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,72887,Cloudy,67,45,2,36,19,10,7,3,3,7,3,16,6
+Green Bay Packers,Kansas City Chiefs,2023-12-04T01:20:00+00:00,Lambeau Field,Green Bay,WI,USA,turf,outdoor,closed,78124,Cloudy,31,85,9,27,19,7,3,7,3,7,6,6,7
+Jacksonville Jaguars,Cincinnati Bengals,2023-12-05T01:15:00+00:00,EverBank Stadium,Jacksonville,FL,USA,turf,outdoor,closed,67951,Clear,61,60,4,31,34,7,0,7,14,14,7,3,10
+Pittsburgh Steelers,New England Patriots,2023-12-08T01:15:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,66376,Partly Cloudy,42,71,5,18,21,3,7,7,14,0,0,8,0
+New Orleans Saints,Carolina Panthers,2023-12-10T18:00:00+00:00,Caesars Superdome,New Orleans,LA,USA,artificial,dome,closed,70009,Controlled Climate,55,64,19,28,6,0,0,14,3,0,3,14,0
+Baltimore Ravens,Los Angeles Rams,2023-12-10T18:00:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,70492,Rain,57,91,5,37,31,7,3,10,17,3,2,11,9
+Cincinnati Bengals,Indianapolis Colts,2023-12-10T18:00:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,65981,Cloudy,40,68,9,34,14,7,0,7,14,14,0,6,0
+Cleveland Browns,Jacksonville Jaguars,2023-12-10T18:00:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67431,Cloudy,39,70,11,31,27,7,0,7,7,7,7,10,13
+Chicago Bears,Detroit Lions,2023-12-10T18:00:00+00:00,Soldier Field,Chicago,IL,USA,turf,outdoor,closed,62185,Cloudy,36,70,12,28,13,10,0,0,13,9,0,9,0
+Atlanta Falcons,Tampa Bay Buccaneers,2023-12-10T18:00:00+00:00,Mercedes-Benz Stadium,Atlanta,GA,USA,artificial,retractable_dome,closed,69496,Controlled Climate,68,40,0,25,29,3,3,7,9,0,7,15,10
+New York Jets,Houston Texans,2023-12-10T18:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,72956,Raining,58,94,7,30,6,0,0,0,0,14,6,16,0
+San Francisco 49ers,Seattle Seahawks,2023-12-10T21:05:00+00:00,Levi's Stadium,Santa Clara,CA,USA,turf,outdoor,closed,71816,Sunny,63,42,5,28,16,7,10,7,0,7,6,7,0
+Las Vegas Raiders,Minnesota Vikings,2023-12-10T21:05:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,62626,Controlled Climate,54,15,3,0,3,0,0,0,0,0,0,0,3
+Kansas City Chiefs,Buffalo Bills,2023-12-10T21:25:00+00:00,GEHA Field at Arrowhead Stadium,Kansas City,MO,USA,turf,outdoor,closed,73639,Sunny,45,43,5,17,20,0,7,7,7,7,3,3,3
+Los Angeles Chargers,Denver Broncos,2023-12-10T21:25:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,70240,Clear,75,10,3,7,24,0,7,0,3,0,7,7,7
+Dallas Cowboys,Philadelphia Eagles,2023-12-11T01:20:00+00:00,AT&T Stadium,Arlington,TX,USA,artificial,retractable_dome,closed,93752,Controlled Climate,43,37,2,33,13,10,0,14,6,3,7,6,0
+New York Giants,Green Bay Packers,2023-12-12T01:15:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,76637,Overcast,39,50,14,24,22,0,7,7,3,14,3,3,9
+Miami Dolphins,Tennessee Titans,2023-12-12T01:15:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,66068,Partly Cloudy,64,73,9,27,28,7,0,0,10,3,3,17,15
+Las Vegas Raiders,Los Angeles Chargers,2023-12-15T01:15:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,61654,Controlled Climate,58,26,4,63,21,21,0,21,0,14,7,7,14
+Cincinnati Bengals,Minnesota Vikings,2023-12-16T18:00:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,66376,Mostly cloudy,53,42,5,27,24,3,7,0,0,0,10,21,7
+Indianapolis Colts,Pittsburgh Steelers,2023-12-16T21:30:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,64171,Controlled Climate,53,47,4,30,13,0,6,14,7,10,0,6,0
+Detroit Lions,Denver Broncos,2023-12-17T01:15:00+00:00,Ford Field,Detroit,MI,USA,artificial,dome,closed,64500,Controlled Climate,70,68,8,42,17,0,0,21,0,7,10,14,7
+Green Bay Packers,Tampa Bay Buccaneers,2023-12-17T18:00:00+00:00,Lambeau Field,Green Bay,WI,USA,turf,outdoor,closed,77275,Overcast,42,85,8,20,34,7,3,3,10,7,14,3,7
+Carolina Panthers,Atlanta Falcons,2023-12-17T18:00:00+00:00,Bank of America Stadium,Charlotte,NC,USA,artificial,outdoor,closed,70301,"Rain, Mist",47,90,11,9,7,0,0,3,7,0,0,6,0
+New Orleans Saints,New York Giants,2023-12-17T18:00:00+00:00,Caesars Superdome,New Orleans,LA,USA,artificial,dome,closed,70038,Controlled Climate,56,80,11,24,6,7,3,0,3,10,0,7,0
+New England Patriots,Kansas City Chiefs,2023-12-17T18:00:00+00:00,Gillette Stadium,Foxborough,MA,USA,artificial,outdoor,closed,64628,Cloudy,53,74,7,17,27,0,7,10,7,0,13,7,0
+Tennessee Titans,Houston Texans,2023-12-17T18:00:00+00:00,Nissan Stadium,Nashville,TN,USA,turf,outdoor,closed,66219,Cloudy,48,77,9,16,19,6,0,7,3,0,6,3,7
+Cleveland Browns,Chicago Bears,2023-12-17T18:00:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67919,Rain,45,84,15,20,17,0,0,7,7,0,10,13,0
+Miami Dolphins,New York Jets,2023-12-17T18:00:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,65967,Partly cloudy,76,69,15,30,0,7,0,17,0,3,0,3,0
+Los Angeles Rams,Washington Commanders,2023-12-17T21:05:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,72035,Cloudy,78,18,2,28,20,3,0,10,0,7,7,8,13
+Arizona Cardinals,San Francisco 49ers,2023-12-17T21:05:00+00:00,State Farm Stadium,Glendale,AZ,USA,turf,retractable_dome,closed,63967,Sunny,76,13,3,29,45,7,14,6,7,3,14,13,10
+Buffalo Bills,Dallas Cowboys,2023-12-17T21:25:00+00:00,Highmark Stadium,Orchard Park,NY,USA,artificial,outdoor,closed,70933,Rain showers,48,90,9,31,10,7,0,14,3,3,0,7,7
+Jacksonville Jaguars,Baltimore Ravens,2023-12-18T01:20:00+00:00,EverBank Stadium,Jacksonville,FL,USA,turf,outdoor,closed,68021,Clear,58,81,13,7,23,0,3,0,7,7,0,0,13
+Seattle Seahawks,Philadelphia Eagles,2023-12-19T01:15:00+00:00,Lumen Field,Seattle,WA,USA,artificial,outdoor,closed,68758,Drizzle,46,82,2,20,17,0,7,3,3,7,7,10,0
+Los Angeles Rams,New Orleans Saints,2023-12-22T01:15:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,73228,Cloudy,63,85,3,30,22,7,0,10,7,10,0,3,15
+Pittsburgh Steelers,Cincinnati Bengals,2023-12-23T21:30:00+00:00,Acrisure Stadium,Pittsburgh,PA,USA,turf,outdoor,closed,66646,Cloudy,49,54,5,34,11,7,0,17,0,7,11,3,0
+Los Angeles Chargers,Buffalo Bills,2023-12-24T01:00:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,67678,Cloudy,62,82,8,22,24,3,0,7,14,3,7,9,3
+Tennessee Titans,Seattle Seahawks,2023-12-24T18:00:00+00:00,Nissan Stadium,Nashville,TN,USA,turf,outdoor,closed,60181,Partly cloudy,61,64,4,17,20,0,0,10,3,0,3,7,14
+Atlanta Falcons,Indianapolis Colts,2023-12-24T18:00:00+00:00,Mercedes-Benz Stadium,Atlanta,GA,USA,artificial,retractable_dome,closed,69221,Controlled Climate,60,67,13,29,10,7,7,6,0,7,3,9,0
+Houston Texans,Cleveland Browns,2023-12-24T18:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,70831,Controlled Climate,68,95,2,22,36,0,7,7,15,0,6,15,8
+Carolina Panthers,Green Bay Packers,2023-12-24T18:00:00+00:00,Bank of America Stadium,Charlotte,NC,USA,artificial,outdoor,closed,70875,Sunny,67,43,1,30,33,3,7,7,16,6,0,14,10
+New York Jets,Washington Commanders,2023-12-24T18:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,67470,Overcast,45,80,2,30,28,17,0,10,7,0,7,3,14
+Minnesota Vikings,Detroit Lions,2023-12-24T18:00:00+00:00,U.S. Bank Stadium,Minneapolis,MN,USA,artificial,dome,closed,66932,Controlled Climate,54,80,16,24,30,7,7,7,10,7,6,3,7
+Tampa Bay Buccaneers,Jacksonville Jaguars,2023-12-24T21:05:00+00:00,Raymond James Stadium,Tampa,FL,USA,turf,outdoor,closed,62547,Cloudy,72,72,11,30,12,3,0,17,0,10,6,0,6
+Chicago Bears,Arizona Cardinals,2023-12-24T21:25:00+00:00,Soldier Field,Chicago,IL,USA,turf,outdoor,closed,59978,Mostly Cloudy,52,78,4,27,16,7,0,14,7,3,3,3,6
+Miami Dolphins,Dallas Cowboys,2023-12-24T21:25:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,66410,Cloudy,75,66,15,22,20,3,7,10,0,6,3,3,10
+Denver Broncos,New England Patriots,2023-12-25T01:15:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76201,Partly cloudy,28,50,9,23,26,7,0,0,3,0,20,16,3
+Kansas City Chiefs,Las Vegas Raiders,2023-12-25T18:00:00+00:00,GEHA Field at Arrowhead Stadium,Kansas City,MO,USA,turf,outdoor,closed,73480,Overcast,38,82,11,14,20,0,3,7,14,0,3,7,0
+Philadelphia Eagles,New York Giants,2023-12-25T21:30:00+00:00,Lincoln Financial Field,Philadelphia,PA,USA,turf,outdoor,closed,69879,Cloudy,51,68,5,33,25,7,3,13,0,0,15,13,7
+San Francisco 49ers,Baltimore Ravens,2023-12-26T01:15:00+00:00,Levi's Stadium,Santa Clara,CA,USA,turf,outdoor,closed,71812,Cloudy,56,60,8,19,33,5,3,7,13,0,17,7,0
+Cleveland Browns,New York Jets,2023-12-29T01:15:00+00:00,Huntington Bank Field,Cleveland,OH,USA,turf,outdoor,closed,67919,Cloudy,47,76,6,37,20,20,7,14,10,0,0,3,3
+Dallas Cowboys,Detroit Lions,2023-12-31T01:15:00+00:00,AT&T Stadium,Arlington,TX,USA,artificial,retractable_dome,closed,93731,Controlled Climate,55,40,5,20,19,7,3,0,0,3,7,10,9
+Indianapolis Colts,Las Vegas Raiders,2023-12-31T18:00:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,65538,Controlled Climate,32,92,12,23,20,7,3,7,0,3,7,6,10
+Chicago Bears,Atlanta Falcons,2023-12-31T18:00:00+00:00,Soldier Field,Chicago,IL,USA,turf,outdoor,closed,61752,Light Snow,32,92,5,37,17,7,0,14,7,6,3,10,7
+Jacksonville Jaguars,Carolina Panthers,2023-12-31T18:00:00+00:00,EverBank Stadium,Jacksonville,FL,USA,turf,outdoor,closed,67233,Sunny,56,47,8,26,0,3,0,6,0,10,0,7,0
+Tampa Bay Buccaneers,New Orleans Saints,2023-12-31T18:00:00+00:00,Raymond James Stadium,Tampa,FL,USA,turf,outdoor,closed,65741,Clear,66,58,5,13,23,0,7,0,10,0,3,13,3
+Philadelphia Eagles,Arizona Cardinals,2023-12-31T18:00:00+00:00,Lincoln Financial Field,Philadelphia,PA,USA,turf,outdoor,closed,69879,Partly Cloudy,45,48,9,31,35,7,3,14,3,0,15,10,14
+Washington Commanders,San Francisco 49ers,2023-12-31T18:00:00+00:00,Northwest Stadium,Landover,MD,USA,turf,outdoor,closed,64424,Cloudy,48,43,7,10,27,0,10,10,3,0,7,0,7
+New York Giants,Los Angeles Rams,2023-12-31T18:00:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,75517,Overcast,41,53,10,25,26,0,7,10,7,6,6,9,6
+Buffalo Bills,New England Patriots,2023-12-31T18:00:00+00:00,Highmark Stadium,Orchard Park,NY,USA,artificial,outdoor,closed,70772,Cloudy,35,88,4,27,21,13,7,7,7,7,0,0,7
+Houston Texans,Tennessee Titans,2023-12-31T18:00:00+00:00,NRG Stadium,Houston,TX,USA,artificial,retractable_dome,closed,71517,Controlled Climate,64,64,2,26,3,3,0,17,3,3,0,3,0
+Baltimore Ravens,Miami Dolphins,2023-12-31T18:00:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,71196,Clear,50,41,7,56,19,7,10,21,3,7,0,21,6
+Seattle Seahawks,Pittsburgh Steelers,2023-12-31T21:05:00+00:00,Lumen Field,Seattle,WA,USA,artificial,outdoor,closed,68735,Partly Cloudy,47,83,4,23,30,0,7,14,10,3,7,6,6
+Kansas City Chiefs,Cincinnati Bengals,2023-12-31T21:25:00+00:00,GEHA Field at Arrowhead Stadium,Kansas City,MO,USA,turf,outdoor,closed,73565,Overcast,36,59,12,25,17,7,3,6,14,3,0,9,0
+Denver Broncos,Los Angeles Chargers,2023-12-31T21:25:00+00:00,Empower Field at Mile High,Denver,CO,USA,turf,outdoor,closed,76228,Mostly Cloudy,41,40,6,16,9,3,0,10,3,0,3,3,3
+Minnesota Vikings,Green Bay Packers,2024-01-01T01:20:00+00:00,U.S. Bank Stadium,Minneapolis,MN,USA,artificial,dome,closed,67003,Controlled Climate,23,74,8,10,33,0,10,3,13,0,7,7,3
+Baltimore Ravens,Pittsburgh Steelers,2024-01-06T21:30:00+00:00,M&T Bank Stadium,Baltimore,MD,USA,turf,outdoor,closed,70355,Rain,38,91,15,10,17,0,7,7,0,0,0,3,10
+Indianapolis Colts,Houston Texans,2024-01-07T01:15:00+00:00,Lucas Oil Stadium,Indianapolis,IN,USA,artificial,retractable_dome,closed,65925,Controlled Climate,36,95,1,19,23,3,7,3,7,8,3,5,6
+New Orleans Saints,Atlanta Falcons,2024-01-07T18:00:00+00:00,Caesars Superdome,New Orleans,LA,USA,artificial,dome,closed,70072,Controlled Climate,52,70,10,48,17,7,14,10,3,14,0,17,0
+Tennessee Titans,Jacksonville Jaguars,2024-01-07T18:00:00+00:00,Nissan Stadium,Nashville,TN,USA,turf,outdoor,closed,63744,Cloudy,41,77,11,28,20,7,3,14,10,7,0,0,7
+Detroit Lions,Minnesota Vikings,2024-01-07T18:00:00+00:00,Ford Field,Detroit,MI,USA,artificial,dome,closed,63233,Controlled Climate,34,90,5,30,20,13,0,0,6,7,7,10,7
+New England Patriots,New York Jets,2024-01-07T18:00:00+00:00,Gillette Stadium,Foxborough,MA,USA,artificial,outdoor,closed,64628,Snow,33,98,14,3,17,0,3,3,3,0,0,0,11
+Carolina Panthers,Tampa Bay Buccaneers,2024-01-07T18:00:00+00:00,Bank of America Stadium,Charlotte,NC,USA,artificial,outdoor,closed,69010,Partly Cloudy,54,48,19,0,9,0,0,0,6,0,0,0,3
+Cincinnati Bengals,Cleveland Browns,2024-01-07T18:00:00+00:00,Paycor Stadium,Cincinnati,OH,USA,artificial,outdoor,closed,65865,Cloudy,38,74,12,31,14,14,0,10,0,7,0,0,14
+Arizona Cardinals,Seattle Seahawks,2024-01-07T21:25:00+00:00,State Farm Stadium,Glendale,AZ,USA,turf,retractable_dome,closed,63197,Controlled Climate,48,76,12,20,21,0,3,6,10,7,0,7,8
+Green Bay Packers,Chicago Bears,2024-01-07T21:25:00+00:00,Lambeau Field,Green Bay,WI,USA,turf,outdoor,closed,78188,Cloudy,34,69,7,17,9,0,3,7,3,7,0,3,3
+New York Giants,Philadelphia Eagles,2024-01-07T21:25:00+00:00,MetLife Stadium,East Rutherford,NJ,USA,artificial,outdoor,closed,75740,Overcast,36,76,12,27,10,3,0,21,0,0,3,3,7
+San Francisco 49ers,Los Angeles Rams,2024-01-07T21:25:00+00:00,Levi's Stadium,Santa Clara,CA,USA,turf,outdoor,closed,71624,Sunny,52,50,11,20,21,7,7,13,0,0,6,0,8
+Las Vegas Raiders,Denver Broncos,2024-01-07T21:25:00+00:00,Allegiant Stadium,Las Vegas,NV,USA,turf,dome,closed,61429,Controlled Climate,50,17,23,27,14,7,0,10,7,0,0,10,7
+Los Angeles Chargers,Kansas City Chiefs,2024-01-07T21:25:00+00:00,SoFi Stadium,Inglewood,CA,USA,artificial,outdoor,closed,68274,Clear,57,28,7,12,13,0,7,6,3,3,0,3,3
+Washington Commanders,Dallas Cowboys,2024-01-07T21:25:00+00:00,Northwest Stadium,Landover,MD,USA,turf,outdoor,closed,63645,Cloudy,48,52,13,10,38,0,7,10,14,0,14,0,3
+Miami Dolphins,Buffalo Bills,2024-01-08T01:20:00+00:00,Hard Rock Stadium,Miami Gardens,FL,USA,turf,outdoor,closed,66292,Partly Cloudy,63,71,6,14,21,0,0,14,7,0,0,0,14
