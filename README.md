@@ -26,9 +26,11 @@ The basketball model predicts the NBA champion for a given season using regular 
 
 ### Model
 - **Algorithm:** Random Forest.
-- **Performance:** Receiver Operating Characteristic (ROC) score of 0.87.
+- **Performance:** Receiver Operating Characteristic (ROC) score of 0.88.
 - **Strengths:** Averaged data over an 82-game season for better accuracy.
 - **Weaknesses:** Small dataset with only 648 samples, even after SMOTE upsampling.
+
+![image_360](https://github.com/user-attachments/assets/efe75689-cef7-4492-aa8e-b3605a52f023)
 
 ## Football
 
