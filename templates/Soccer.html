@@ -3,10 +3,16 @@
 
 <head>
 
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-<meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
-<!--<link rel = "stylesheet" href="../static/style.css">-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/005a876b20.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
 
 
 <style>
@@ -25,7 +31,7 @@
 
     .box-item {
         display:flex; 
-        background-color: tan;
+        background-color: #141414;
         /* width: 45%;  */
         height: 100px;
         justify-content: center;
@@ -36,27 +42,27 @@
     .box-item:first-child {
         grid-column:span 2; 
         align-items: center;
-    }
-    .box-item:nth-child(2) {
-    grid-column:span 2;
-        align-items: center;
-        height: 800px;
-}
-    /* .box-item:nth-child(3) {
+        margin-bottom: 300px;
+        height: 1200px;
+
         
-    } */
-    .box-item:last-child {
-        grid-column: span 2; 
     }
-    /* .box-item:last-child {
-        grid-column:span 2;
-        align-items: center;
-        height: 800px;
-    } */
+
+    .box-item:last-child {
+        grid-column:span 1; 
+        align-items: center; 
+        margin-bottom: 300px;
+        margin-top: 5px;
+    }
+    
+    body {
+        background-color: #141414;
+    }
+
 
     table {
         width: 400px;
-        margin-right: 60px;
+        margin-right: 0;
         background-color: whitesmoke;
         border: 10px;
         border-color: black;
@@ -67,11 +73,11 @@
         align-items: center;
         margin-left: 50px;
         margin-top: 200px; 
-        height: 800px; 
-        width: 600px;
+        height: 1200px; 
+        width: 1200px;
         margin-right: 60px;
-        overflow: hidden;
         word-wrap: break-word; 
+        color: #fff;
     }
 
  </style>
@@ -81,7 +87,7 @@
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo">10 Commanders
+            <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>10 Commanders
             </a>
             <div class="navbar__toggle" id="mobile-menu">
             <span class="bar"></span>
@@ -118,17 +124,18 @@
                     </a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="submissions.html" class="button">
-                        Submissions
+                    <a href="signup.html" class="button">
+                        Sign Up
                     </a>
                 </li>
             
             </ul>
         </div>
     </nav>
+
 <header>
 
-<h1>Project 4 Website Page 2: PREMIER LEAGUE PREDICTIONS!</h1>
+
 
 
 
@@ -141,18 +148,29 @@
 
 </header>
 
+<div class="main">
+    <div class="main__container">
+        <div class = "box-item">
+            <div id = "words2">
+                <p>
+                    My focus was to predict the outcome of premier league games for the next matchweek (1/14-1/16). By retrieving, cleaning, and extracting data features such as average goals scored, possession, etc., I was able to create a prediction model which had a 62.3 percent accuracy score, which is favorable given the target was for the model to score above 50% (random chance). This model was then used to predict the outcomes of the coming matchweek, which will be displayed here.
+                    Data Retrieval and Cleaning:
+                    The source of my raw data came from TheSportsDB API, where I retrieved data for three seasons of premier league matches and concatenated them into one dataframe, along with the match stats for each game. I dropped unnecessary data such as fanart, empty columns, etc., and merged the match dataframe with the match stats dataframe. Then, I began to process the data such as using running averages for the stats of each team, calculating the number of wins in the last 5 games, and adding columns such as a winner column. Finally I dropped NA values and went to preprocessing.
+                    Data Preprocessing:
+                    I manually split my data into training and testing data because I needed to target the information up until the middle of latest season so that the model could have the most accurate and current data as possible, then split the latest matchweeks into the testing data set. I dropped string and date columns as I only wanted my model to train on numerical data and gather relationships from there. One issue I came across was there was very little data on draws, which made my training data unbalanced, so I used smote to create synthetic data that would balance my training data.
+                    Model Training:
+                    I used a Random Forest model for my prediction. Random Forest is a model that uses a collection of decision trees linked together t evaluate the relationships between different data. I used this model because of the nature of my data not having completely linear relationship; the relationships are complex and cant be directly correlated, the results are categorical (multiple possible outcomes) and not binary (only two outcomes), and this model is resistant to scaling issues. I implemented a classification report and an accuracy score report that found the model to be 62.3 percent accurate when used on testing data, which is a success since it denotes a relationship to the data and the winners by more than just random chance. I then printed the importance feature classification to see what pieces of information best help my model come to an accurate conclusion.
+                    Predicting future data:
+                    Once the model had been trained and tested, it was time to implement the model on future data. I started by restructuring my Dataframe to not only contain all the data from the training data, but also data on the upcoming games for this matchweek, this included rerunning all the processes such as last 5 games data, running averages on stats, etc. Once this data was compiled I ran the model on on the new dataframe containing this data, of which the results are displayed here.
+                    Deployment:
+                    With all that said and done, I stored the model in a pickle file to deploy on flask. I split the data further into home team and away team dataframes, saved, those into csv files, and transferred them to my flask file. There I combined element of the old dataframe into a new  dataframe that was tailored by the user, and ran the model to show what the user input information had predicted.
+                </p>
+            </div>   
+        </div>
 
 
 <div class = "box-container">
     <div class = "box-item">
-        <p>This has some content </p> 
-    </div>
-    <div class = "box-item">
-            <div id = "words2">
-                <p>
-                TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
-                </p>
-            </div>
 
                 <div id = tble>
                     <table border = 1, id = table>
@@ -324,14 +342,12 @@
                     </table>
 
                 </div>
-    </div>
-    <div class = "box-item">
-        <p>This has some content </p> 
-    </div>
-    
+    </div>  
+</div>
 </div>
 
-<script src = "static/logic.js"></script>
+
+<script src = "app.js"></script>
 </body>
 </html> 
 
