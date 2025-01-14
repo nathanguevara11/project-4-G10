@@ -3,47 +3,75 @@
 
 <head>
 
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-<meta charset="UTF-8">
-<link rel = "stylesheet" href="../static/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href="style.css">
 
-<!-- <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    <script src="https://kit.fontawesome.com/005a876b20.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <header>
 
-<h1>Project 4 Website Page 5!</h1>
-
-<nav>
-    <ul>
-        <li><a href = "{{ url_for('home') }}"> Home</a></li>
-        <li><a href = "{{ url_for('one') }}"> One</a></li>
-        <li><a href = "{{ url_for('two') }}"> Two</a></li>
-        <li><a href = "{{ url_for('three') }}"> Three</a></li>
-        <li><a href = "{{ url_for('four') }}"> Four</a></li>
-        <li><a href = "{{ url_for('five') }}"> Five</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-    </ul>
-</nav>
-
-<div class = "ham">
-    &#9776; 
-</div>
-
-<div id = "side" class = "side">
-    <ul>
-        <li><a href = "{{ url_for('home') }}"> Home</a></li>
-        <li><a href = "{{ url_for('one') }}"> One</a></li>
-        <li><a href = "{{ url_for('two') }}"> Two</a></li>
-        <li><a href = "{{ url_for('three') }}"> Three</a></li>
-        <li><a href = "{{ url_for('four') }}"> Four</a></li>
-        <li><a href = "{{ url_for('five') }}"> Five</a></li>
-        <li><a href = "{{ url_for('sub') }}"> Submissions</a></li>
-    </ul>
-</div>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>10 Commanders
+                </a>
+                <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">
+                        Home
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Basketball.html" class="navbar__links">
+                            Basketball
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Football.html" class="navbar__links">
+                            Football
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Soccer.html" class="navbar__links">
+                            Soccer
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Hockey.html" class="navbar__links">
+                            Hockey
+                        </a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="signup.html" class="button">
+                            Sign Up
+                        </a>
+                    </li>
+                
+                </ul>
+            </div>
+        </nav>
+    <body>
 </header>
+
+<div class="main">
+    <div class="main__container">
 
 <div class = "container-fluid">
     <div class = "row g-3">
@@ -68,9 +96,11 @@
 
     </div>
 </div>
+</div>
+</div>
 
 
-<script src = "static/logic.js"></script>
+<script src = "app.js"></script>
 </body>
 </html>
 
