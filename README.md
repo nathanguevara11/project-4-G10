@@ -84,3 +84,8 @@ The focus was on predicting outcomes of English Premier League matches.
 ## Conclusion
 
 This project demonstrates the potential of machine learning in sports betting predictions. Across all sports, Random Forest models consistently delivered strong performance, showcasing their robustness and adaptability. Future work will involve integrating more comprehensive datasets and refining the models for greater accuracy.
+
+## Sources
+
+NHL Data Sources - naturalstattrick.com
+NFL Data Sources - [nfl.com](http://nfl.com/), [sportradar.com](http://sportradar.com/), [developersportradar.com](http://developersportradar.com/football), [sportslogos.net](http://sportslogos.net/)
